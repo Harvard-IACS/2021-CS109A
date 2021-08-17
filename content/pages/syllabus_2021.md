@@ -1,7 +1,7 @@
 Title: Syllabus 
-Author: Pavlos Protopapas, Kevin Rader, Chris Tanner
-Slug: syllabus_2020
-Date: 2020-08-31
+Author: Natesh Pillai and Pavlos Protopapas
+Slug: syllabus
+Date: 2021-08-17
 
 <style>
 pre {
@@ -25,28 +25,29 @@ pre {
 }
 </style>
 
+<span style='color:red'>
+**TENTATIVE SYLLABUS SUBJECT TO CHANGE**
+</span>
 
 
-
-## Introduction to Data Science (Fall 2020)
+## Introduction to Data Science (Fall 2021)
 CS 109a, AC 209a, Stat 121a, or CSCI E-109a
 
 
 ### Course Heads
 
-[Pavlos Protopapas](mailto:pavlos@seas.harvard.edu) (SEAS), [Kevin Rader](mailto:rader@stat.harvard.edu) (Statistics), & [Chris Tanner](mailto:christanner@seas.harvard.edu) (SEAS)
+[Natesh Pillai](mailto:pillai@fas.harvard.edu) (Statistics) and [Pavlos Protopapas](mailto:pavlos@seas.harvard.edu) (SEAS)
 
 **Instructor:** Eleni Kaxiras (SEAS) 
 
-**Lectures:** Mon, Wed, Fri at 9am-10:15am and 3pm-4:15pm
+**Lectures:** Mon & Wed 9:45am-11am in SEC 1.321 Lecture Hall
 
-**Sections:**  Fri 1:30-2:45 pm and Mon 8:30-9:45 pm. (identical material) [starts 9/11]
+**Labs:** Friday 9:45am-11am in SEC 1.321 Lecture Hall
 
-**Advanced Sections:** Wed at 12pm [starts 9/23]
+**Advanced Sections:** Wed [starts 9/22] (TBD)
 
 **Office Hours:** (TBD)
 
-**Format:** Exclusively online, but we aim to foster enriching interactions and collaboration as much as possible.
 
 **Prerequisites:** You are expected to have programming experience at the level of CS 50 or above, and statistics knowledge at the level of Stat 100 or above (Stat 110 recommended). HW #0 is designed to test your knowledge on the prerequisites. Successful completion of this assignment will show that this course is suitable for you. HW #0 will not be graded but you are required to submit.
 
@@ -71,11 +72,10 @@ Only one of CS109a, AC209a, or STAT121a can be taken for credit. Students who ha
 ---
 
 ### Course Components <a name='course-components'></a>
-<mark>The lectures will be live-streamed and can be accessed through the Zoom section on Canvas. </mark>
-Video recordings of the live stream will be made available within 24 hours after the event, and will be accessible from the Lecture Video section on Canvas.
+The lectures, labs, and advanced sections will be recorded and accessed through the Zoom section on Canvas for Extension School students. <mark>Attendance is required for on campus students.</mark>
 
 #### Lectures <a name='lectures'></a>
-The class meets, virtually, three days a week for lectures (M, W, F). The same lecture will be given twice each day: once in the morning and again in the afternoon, to accommodate students in different time zones. Mondays and Wednesdays will be mostly lecture content with some hands-on coding, whereas Fridays will be the inverse (mostly hands-on coding). Attending and participating in lectures is a crucial component of learning the material presented in this course.
+The class meets for lectures twice a week for lectures (M & W). Attending and participating in lectures is a crucial component of learning the material presented in this course.
 
 **What to expect** 
 ![Class Structure](https://raw.githubusercontent.com/Harvard-IACS/2020-CS109A/master/content/pages/ClassSturcture_new_repeat.png?raw=true)
@@ -89,6 +89,9 @@ A lecture will have the following pedagogy layout which will be repeated:
 Sessions will help students develop the intuition for the core concepts, provide the necessary mathematical background, and provide guidance on technical details.
 Sessions will be accompanied by relevant examples to clarify key concepts and techniques.
 
+#### Labs <a name='labs'></a>
+Lab will be held every Friday at the same time and place as lectures. Labs guided hands-on coding challenges which will prepare students for successfully completing the homework assignments.
+
 #### Quizzes <a name='in-class-quizzes'></a>
 At the end of each lecture, there will be a short, graded quiz that will cover the pre-class and in-class material; there will be no AC209a content in the quizzes.  The quizzes will be available until the next lecture.
 
@@ -97,36 +100,30 @@ At the end of each lecture, there will be a short, graded quiz that will cover t
 #### Exercises <a name='in-class-exercises'></a>
 Lectures will include one or more coding exercises focused on the newly introduced material; there will be no AC209a content in the exercises. The exercises are short enough to be completed during the time allotted in lecture but they will remain available until the beginning of the following lecture to accomodate those who cannot attend in real time.
 
-25% of the exercises will be dropped from your grade.
-
-#### Sections <a name='sections'></a>
-Lectures are supplemented by sections led by teaching fellows. There are two types of sections:
-
-##### Standard Sections <a name='standard-sections'></a>: 
-This will be a mix of review of material and practice problems similar to the HW. The material covered on Friday and Monday is identical.
+Your final grade will be calculated twice: one including exercise grades and one without. You will be given the higher of the two. In this way, exercises can only help your grade.
 
 ##### Advanced Sections <a name='advanced-sections'></a>
-The course will include advanced sections for 209a students and will cover a different topic per week. These are 75-min lectures and will cover advanced topics like the mathematical underpinnings of the methods seen in lecture and hands-on exercises, along with extensions of those methods. The material covered in the advanced sections is </span><strong>required </strong> for all AC209a students. 
+The course will include advanced sections for 209a students and will cover a different topic per week. These are 75-min lectures and will cover advanced topics like the mathematical underpinnings of the methods seen in lecture and hands-on exercises, along with extensions of those methods. The material covered in the advanced sections is </span><strong>required </strong> for all AC209a students. But all students are welcome and encouraged to attendadvanced sections.
 
-Note: Sections are not held every week. Consult the course calendar for exact dates.
+Note: Advanced sections are not held every week. Consult the course schedule for exact dates.
 
 
 
 #### Exams <a name='exams'></a>
-There are no exams in this course.
+There will be a midterm exam. More details to follow.
 
 #### Projects <a name='projects'></a>
 
-Students will work in groups of 2-4 to complete a final group project, due during the Exams period. See Calendar for specific dates.
+Students will work in groups of 2-4 to complete a final group project, due during the Exams period. See schedule for specific dates.
 
 #### Homework Assignments <a name='homework-assignments'></a>
-There will be 9 graded homework assignments. Some of them will be due one week after being assigned, and some will be due two weeks after being assigned. You have the option to work and submit in pairs for all the assignments **except** HW4 and HW7, which you will do individually.
+There will be 8 graded homework assignments. Some of them will be due one week after being assigned, and some will be due two weeks after being assigned. You have the option to work and submit in pairs for all the assignments **except** HW2 and HW7, which you will do individually.
 
 You will be working in Jupyter Notebooks, which you can run in your own environment or in the SEAS JupyterHub cloud.
 
-[Instructions for Setting up Your Environment](https://canvas.harvard.edu/courses/74056/modules/items/728538 "Instructions for Setting up Your Environment")
+[Instructions for Setting up Your Environment] (coming soon)
 
-[Instructions for Using JupyterHub](https://canvas.harvard.edu/courses/74056/modules/items/728539 "Instructions for Using JupyterHub")
+[Instructions for Using JupyterHub] (coming soon)
 
 On weeks with new assignments, the assignments will be released by Wednesday 3pm.
 
@@ -137,11 +134,9 @@ AC209a students will have additional homework content for most assignments worth
 
 #### Instructor Office Hours
 
-**Pavlos**: (TBD)
+**Natesh**: (TBD)
 
-**Kevin**: (TBD) 
-
-**Chris**: (TBD)
+**Pavlos**: (TBD) 
 
 **Eleni**: (TBD)
 
@@ -149,11 +144,11 @@ AC209a students will have additional homework content for most assignments worth
 #### Participation 
 Students are expected to be actively engaged with the course. This includes:
 
-1. Attending and participating in lectures (or the follow-up session later in the day)
-2. Making use of resources such as office hours and sections
+1. Attending and participating in lectures 
+2. Making use of office hours
 3. Participating in the Ed discussion forum — both through asking thoughtful questions and by answering the questions of others
 
-Despite being remote, we aim to make this course as interactive, stimulating, and fun as always, and we rely on each of you to contribute your awesome uniqueness.
+
 
 ---
 
@@ -169,10 +164,6 @@ The book is available here:
 
 **Amazon:** [https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370 (Links to an external site)](https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370).
 
-**Deep Learning, Vol. 1 & 2: From Basics to Practice** by Andrew Glassner
-
-**Deep Learning** by Ian Goodfellow and Yoshua Bengio and Aaron Courville (MIT Press, 2016)  
-
 
 ---
 ### Course Policies
@@ -186,7 +177,7 @@ For questions about homework, course content, package installation, JupyterHub, 
 
 **2.** Go to **Office Hours**; this is the best way to get direct help.
 
-**3.** For private matters send an email to the **Helpline:** <cs109a2020@gmail.com>.
+**3.** For private matters send an email to the **Helpline:** <cs109a2021@gmail.com>.
 The Helpline is monitored by the teaching staff.
 
 **4.** For personal and confidential matters send an email to the **instructors**.
@@ -231,16 +222,6 @@ If you discover that your answer to a homework problem was correct but it was ma
 
 <strong>If you decide to send a regrade request</strong>, send an email to the Helpline with subject line "Regrade HW1: Grader=johnsmith" &nbsp;replacing 'HW1' with the current assignment and 'johnsmith' with the name of the grader within  </span><strong>48 hours of the grade release</strong>.
 
-#### Zoom Expectations:
-Despite being remote and distributed, we want everyone to participate and engage with fellow classmates and staff. To this end, we **request for everyone to leave his/her/their video on during class.** We fully understand that some may be uncomfortable or unable to do so, for various personal reasons. We respect your decision and empathize for any situation that may arise. Nonetheless, if possible, we strongly ask for you to please leave your video on.
-
-Many are getting accustomed to Zoom for the first time. While it is understandable to have some glitches, mistakes, and faux pas, some mistakes can be largely disruptive to such a large audience like that of our class. Please familiarize yourself to Zoom before the semester begins. In particular, please:
-
-* keep your video on (see above)
-* keep your mic muted by default, until you speak
-* be mindful of overtly distracting actions that your video may cause (this isn't a large issue, but it's akin to students' laptops distracting those who sit nearby)
-* be mindful of your mic settings after returning to the main room from a break-out room, as it tends to un-mute each person's mic.
-
 #### Communication from Staff to Students
 
 Class announcements will be through **Ed**. All homework and will be posted and submitted through **Canvas**. Quizzes are completed on **Ed** as well as all feedback forms.
@@ -250,10 +231,11 @@ Class announcements will be through **Ed**. All homework and will be posted and 
 
 #### Submitting an assignment
 
-Please consult [Homework Policies & Submission Instructions]( "Homework Policies & Submission Instructions") [Update link]
+Please consult [Homework Policies & Submission Instructions] (coming soon)
 
 #### Course Grade 
 
+<span style='color:red'>THIS WILL CHANGE!</span>
 Your final score for the course will be computed using the following weights:
 
 

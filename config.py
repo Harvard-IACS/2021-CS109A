@@ -15,7 +15,7 @@ COLOR = '#c90016'
 # Define Navbar links
 # ex. ('Link Name', 'URL')
 MENUITEMS = [
-    #('Syllabus', 'pages/syllabus.html'),
+    ('Syllabus', 'pages/syllabus.html'),
     #('Calendar', 'pages/calendar.html'),
     ('Schedule', 'pages/schedule.html'),
     #('Materials', 'pages/materials.html'),
