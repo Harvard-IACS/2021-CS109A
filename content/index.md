@@ -74,9 +74,9 @@ Wednesday 9/8 - HW0 due at 11:59pm EST
 <hr>
 
 
-<strong>Lectures: Mon </strong> & <strong>Wed</strong> TBD 
+<strong>Lectures: Mon </strong> & <strong>Wed</strong> 9:45-11am in SEC 1.321 Lecture Hall
 <br/>
-<strong>Lab: Fri </strong> TDB
+<strong>Lab: Fri </strong> 9:45-11am in SEC 1.321 Lecture Hall
 <br/>
 <strong>Advanced Sections: Wed </strong> [starting 9/22] TBD
 <br/>
