@@ -38,15 +38,13 @@ CS 109a, AC 209a, Stat 121a, or CSCI E-109a
 
 [Natesh Pillai](mailto:pillai@fas.harvard.edu) (Statistics) and [Pavlos Protopapas](mailto:pavlos@seas.harvard.edu) (SEAS)
 
-**Instructor:** Eleni Kaxiras (SEAS) 
-
 **Lectures:** Mon & Wed 9:45am-11am in SEC 1.321 Lecture Hall
 
 **Labs:** Friday 9:45am-11am in SEC 1.321 Lecture Hall
 
-**Advanced Sections:** Wed [starts 9/22] (TBD)
+**Advanced Sections:** Wed 12:45-2pm [starts 9/22] (room to be announced)
 
-**Office Hours:** (TBD)
+**Office Hours:** (times and rooms to be announced)
 
 
 **Prerequisites:** You are expected to have programming experience at the level of CS 50 or above, and statistics knowledge at the level of Stat 100 or above (Stat 110 recommended). HW #0 is designed to test your knowledge on the prerequisites. Successful completion of this assignment will show that this course is suitable for you. HW #0 will not be graded but you are required to submit.

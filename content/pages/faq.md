@@ -27,10 +27,12 @@ pre {
 
 
 # General
+-  **I'm unable to attend lectures in person. Can I take the class asynchronously?**
+    - Lecture attendance is required. Non-DCE students should only register if they can attend in person.
 -  **Does the individual HW mean I have to submit on my own but can I still work with my HW partner?**
-  - An *individual* CS109A HW means you are supposed to work on your own, without any human intervention, assistance, or input. You are not allowed to work with partner.  You are allowed to use OHs to ask for clarification questions, but we may not be able to answer all of your questions or help with your coding.  You are allowed to use all of your materials from the course up to the HW, look at problem resolution online, and look at libraries documentation.
+    - An *individual* CS109A HW means you are supposed to work on your own, without any human intervention, assistance, or input. You are not allowed to work with partner.  You are allowed to use OHs to ask for clarification questions, but we may not be able to answer all of your questions or help with your coding.  You are allowed to use all of your materials from the course up to the HW, look at problem resolution online, and look at libraries documentation.
 - **Where should I send my questions?**
-  - Use Ed for anying related to the course content or assignments. All other concerns should be sent to the course helpline: cs109a2021@gmail.com
+    - Use Ed for anying related to the course content or assignments. All other concerns should be sent to the course helpline: cs109a2021@gmail.com
 
 # Auditing
 
@@ -45,7 +47,7 @@ pre {
 
 # Quizzes & Exercises
 - **When are quizzes and exercises due?**
-	- Quizzes and exercises are due before the next lecture.
+    - Quizzes and exercises are due before the next lecture.
 - **I missed a quiz/exercise. Can I make it up?**
-	- No. We will drop your lowest 25% of quizzes and your lowest 25% of exercises. This policy is to reduce stress and is in place so that missing a quiz or exercise on occasion should not affect your final grade.
+    - No. We will drop your lowest 25% of quizzes and your lowest 25% of exercises. This policy is to reduce stress and is in place so that missing a quiz or exercise on occasion should not affect your final grade.
 
