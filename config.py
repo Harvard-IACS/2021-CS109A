@@ -23,7 +23,7 @@ MENUITEMS = [
     #('Modules', 'pages/modules.html'),
     # ('Projects', 'pages/projects.html'),
     ('FAQ', 'pages/faq.html'),
-    #('Preparing for this course', 'pages/preparation.html')
+    ('Preparation', 'pages/preparation.html')
     # ('Resources', 'pages/resources.html')
     # ('Sections', 'category/sections.html')
 ]
@@ -84,7 +84,7 @@ MARKUP = ['md', 'ipynb']
 
 PLUGIN_PATHS = ['plugins']
 
-# FOR PAVLOS COMPUTER ..... 
+# FOR PAVLOS COMPUTER .....
 # PLUGINS = ['tipue_search']
 PLUGINS = ['ipynb.markup', 'tipue_search']
 
