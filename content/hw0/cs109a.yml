@@ -1,0 +1,28 @@
+name: cs109a
+
+channels:
+- conda-forge
+- anaconda-fusion
+# for json
+- jmcmurray
+- defaults
+
+dependencies:
+- beautifulsoup4
+- ipytest
+- IPython
+- ipywidgets
+- json
+- jupyter
+- jupyterlab
+- matplotlib
+- numpy
+- pandas
+- pillow
+- pip
+- python>=3.8
+- requests
+- scipy
+- scikit-learn
+- seaborn
+- statsmodels

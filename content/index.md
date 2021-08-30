@@ -65,7 +65,7 @@ Only one of CS 109a, AC 209a, or Stat 121a can be taken for credit. Students who
 
 <br><pre>Important Dates:
 Tuesday 9/7 - HW1 released
-Wednesday 9/8 - HW0 due at 11:59pm EST
+Wednesday 9/8 - <a href='https://canvas.harvard.edu/courses/88553/assignments/507546' anchor='_blank'>HW0</a> due at 11:59pm EST
 </pre>
 <hr>
 <span style="color: #993300;"><strong>Helpline:</strong></span> <a href="mailto:cs109a2021@gmail.com">cs109a2021@gmail.com</a>
@@ -97,4 +97,3 @@ Wednesday 9/8 - HW0 due at 11:59pm EST
 <li><a href="http://cs109.github.io/2014/index.html">2014</a>.</li>
 <li><a href="https://github.com/cs109/content">2013</a></li>
 </ul>
-
