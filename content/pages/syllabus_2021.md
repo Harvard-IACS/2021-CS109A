@@ -1,7 +1,7 @@
-Title: Syllabus 
-Author: Natesh Pillai and Pavlos Protopapas
+Title: Syllabus
+Author: Pavlos Protopapas and Natesh Pillai
 Slug: syllabus
-Date: 2021-08-17
+Date: 2021-08-30
 
 <style>
 pre {
@@ -36,7 +36,7 @@ CS 109a, AC 209a, Stat 121a, or CSCI E-109a
 
 ### Course Heads
 
-[Natesh Pillai](mailto:pillai@fas.harvard.edu) (Statistics) and [Pavlos Protopapas](mailto:pavlos@seas.harvard.edu) (SEAS)
+[Pavlos Protopapas](mailto:pavlos@seas.harvard.edu) (SEAS) and [Natesh Pillai](mailto:pillai@fas.harvard.edu) (Statistics)
 
 **Lectures:** Mon & Wed 9:45am-11am in SEC 1.321 Lecture Hall
 
@@ -75,14 +75,14 @@ The lectures, labs, and advanced sections will be recorded and accessed through 
 #### Lectures <a name='lectures'></a>
 The class meets for lectures twice a week for lectures (M & W). Attending and participating in lectures is a crucial component of learning the material presented in this course.
 
-**What to expect** 
+**What to expect**
 ![Class Structure](https://raw.githubusercontent.com/Harvard-IACS/2020-CS109A/master/content/pages/ClassSturcture_new_repeat.png?raw=true)
 
 A lecture will have the following pedagogy layout which will be repeated:
 
-+ Asynchronous pre-class exercises of approxmately 30 min. This will include, reading from the textbooks or other sources, watching videos to prepare you for the class.  
-+ Approx. 10 minutes of Q&A regarding the pre-class exercises and/or review of homework and quiz questions. 
-+ Live online instruction followed by a short Q/A session 
++ Asynchronous pre-class exercises of approxmately 30 min. This will include, reading from the textbooks or other sources, watching videos to prepare you for the class.
++ Approx. 10 minutes of Q&A regarding the pre-class exercises and/or review of homework and quiz questions.
++ Live online instruction followed by a short Q/A session
 + Hands-on exercises, on the ED platform.
 Sessions will help students develop the intuition for the core concepts, provide the necessary mathematical background, and provide guidance on technical details.
 Sessions will be accompanied by relevant examples to clarify key concepts and techniques.
@@ -134,15 +134,15 @@ AC209a students will have additional homework content for most assignments worth
 
 **Natesh**: (TBD)
 
-**Pavlos**: (TBD) 
+**Pavlos**: (TBD)
 
 **Eleni**: (TBD)
 
 
-#### Participation 
+#### Participation
 Students are expected to be actively engaged with the course. This includes:
 
-1. Attending and participating in lectures 
+1. Attending and participating in lectures
 2. Making use of office hours
 3. Participating in the Ed discussion forum — both through asking thoughtful questions and by answering the questions of others
 
@@ -231,7 +231,7 @@ Class announcements will be through **Ed**. All homework and will be posted and 
 
 Please consult [Homework Policies & Submission Instructions] (coming soon)
 
-#### Course Grade 
+#### Course Grade
 
 Your final score for the course will be computed using the following weights:
 
@@ -281,8 +281,8 @@ We need your help to create a learning environment that supports a diversity of 
 Our course will discuss diversity, inclusion, and ethics in data science. Please contact us (in person or electronically) or submit anonymous feedback if you have any suggestions for how we can improve.
 
 #### Extension School Policies
- **Accommodation Requests.** Harvard Extension School is committed to providing an inclusive, accessible academic community for students with disabilities and chronic health conditions. The Accessibility Services Office (ASO) <a href='https://extension.harvard.edu/for-students/support-and-services/accessibility-services/' target='_blank'>(https://extension.harvard.edu/for-students/support-and-services/accessibility-services/)</a> offers accommodations and support to students with documented disabilities. If you have a need for accommodations or adjustments, contact Accessibility Services directly via email at accessibility@extension.harvard.edu or by phone at 617-998-9640. 
+ **Accommodation Requests.** Harvard Extension School is committed to providing an inclusive, accessible academic community for students with disabilities and chronic health conditions. The Accessibility Services Office (ASO) <a href='https://extension.harvard.edu/for-students/support-and-services/accessibility-services/' target='_blank'>(https://extension.harvard.edu/for-students/support-and-services/accessibility-services/)</a> offers accommodations and support to students with documented disabilities. If you have a need for accommodations or adjustments, contact Accessibility Services directly via email at accessibility@extension.harvard.edu or by phone at 617-998-9640.
 
-**Academic Integrity.** You are responsible for understanding Harvard Extension School policies on academic integrity <a href='https://extension.harvard.edu/for-students/student-policies-conduct/academic-integrity/' target='_blank'>(https://extension.harvard.edu/for-students/student-policies-conduct/academic-integrity/)</a>and how to use sources responsibly. Stated most broadly, academic integrity means that all course work submitted, whether a draft or a final version of a paper, project, take-home exam, online exam, computer program, oral presentation, or lab report, must be your own words and ideas, or the sources must be clearly acknowledged. The potential outcomes for violations of academic integrity are serious and ordinarily include all of the following: required withdrawal (RQ), which means a failing grade in the course (with no refund), the suspension of registration privileges, and a notation on your transcript. 
+**Academic Integrity.** You are responsible for understanding Harvard Extension School policies on academic integrity <a href='https://extension.harvard.edu/for-students/student-policies-conduct/academic-integrity/' target='_blank'>(https://extension.harvard.edu/for-students/student-policies-conduct/academic-integrity/)</a>and how to use sources responsibly. Stated most broadly, academic integrity means that all course work submitted, whether a draft or a final version of a paper, project, take-home exam, online exam, computer program, oral presentation, or lab report, must be your own words and ideas, or the sources must be clearly acknowledged. The potential outcomes for violations of academic integrity are serious and ordinarily include all of the following: required withdrawal (RQ), which means a failing grade in the course (with no refund), the suspension of registration privileges, and a notation on your transcript.
 
-Using sources responsibly <a href='https://extension.harvard.edu/for-students/support-and-services/using-sources-effectively-and-responsibly/' target='_blank'>(https://extension.harvard.edu/for-students/support-and-services/using-sources-effectively-and-responsibly/)</a> is an essential part of your Harvard education. We provide additional information about our expectations regarding academic integrity on our website. We invite you to review that information and to check your understanding of academic citation rules by completing two free online 15-minute tutorials that are also available on our site. (The tutorials are anonymous open-learning tools.)  
+Using sources responsibly <a href='https://extension.harvard.edu/for-students/support-and-services/using-sources-effectively-and-responsibly/' target='_blank'>(https://extension.harvard.edu/for-students/support-and-services/using-sources-effectively-and-responsibly/)</a> is an essential part of your Harvard education. We provide additional information about our expectations regarding academic integrity on our website. We invite you to review that information and to check your understanding of academic citation rules by completing two free online 15-minute tutorials that are also available on our site. (The tutorials are anonymous open-learning tools.)

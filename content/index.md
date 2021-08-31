@@ -4,8 +4,7 @@ save_as: index.html
 
 
 <h5>
-Fall 2021 <br><br>
-<a href='http://www.people.fas.harvard.edu/~pillai/'>Natesh Pillai</a> and <a href="https://iacs.seas.harvard.edu/people/pavlos-protopapas">Pavlos Protopapas</a>
+Fall 2021 <br><br><a href="https://iacs.seas.harvard.edu/people/pavlos-protopapas">Pavlos Protopapas</a> and <a href='http://www.people.fas.harvard.edu/~pillai/'>Natesh Pillai</a>
 
 <hr>
 
@@ -40,7 +39,6 @@ pre {
     flex: 3;
   }
 </style>
-<p><strong>Additional Instructor:</strong>  Eleni Kaxiras</p>
 <hr>
 
 
