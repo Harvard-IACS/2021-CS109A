@@ -195,9 +195,7 @@ In particular:
 * if the assignment allows it you may use third-party libraries and example code, so long as the material is available to all students in the class and you give proper attribution. Do not remove any original copyright notices and headers.
 
 #### Late or Wrongly Submitted Assignments <a name='late-or-wrongly-submitted-assignments'></a>
-There are <strong>no late</strong> days in homework submission. We will accept late submissions only for medical (if accompanied by a doctor's note) or other official University-excused reasons.
-
-<strong>To submit after Canvas has closed or to ask for an extension</strong>, send an email to the Helpline with subject line "Submit HW1: Reason=the flu" &nbsp;replacing 'HW1' with the name of the current assignment and "the flu" with your reason. You need to attach the note from your medical provider otherwise we will not accept the request.  Email the instructors if you have other University-excused reasons.
+Each student is allowed **up to 3 late days** over the semester with **at most 1 day** applied to any single homework. Outside of these allotted late days, late homework will not be accepted unless there is a medical (if accompanied by a doctor's note) or other official University-excused reasons. There is no need to ask before using one of your late days.
 
 <strong>If you forgot to join a Group with your peer</strong> and are asking for the same grade we will accept this with no penalty up to HW3. For homeworks beyond that we feel that you should be familiar with the process of joining groups. After that there will be a penalty of -1 point for both members of the group provided the submission was on time.
 
