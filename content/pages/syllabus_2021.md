@@ -237,15 +237,15 @@ Your final score for the course will be computed using the following weights:
 
 
 | Assignment              | Final Grade Weight |
-|--------------------------------|--------------------|
-| Homework 0                     | 1%                 |
-| Paired Homework (7)            | 35% (5% per HW)    |
-| Individual Homework (2)        | 16% (8% per HW)    |
-| Midterm                        | 10%                |
-| Quizzes                        | 6%                 |
-| Exercises                      | 6%                 |
-| Project                        | 26%                |
-| **Total**                      | **100%**           |
+|-------------------------|--------------------|
+| Homework 0              | 1%                 |
+| Paired Homework (6)     | 35% (5% per HW)    |
+| Individual Homework (2) | 16% (8% per HW)    |
+| Midterm                 | 10%                |
+| Quizzes                 | 6%                 |
+| Exercises               | 6%                 |
+| Project                 | 26%                |
+| **Total**               | **100%**           |
 
 
 #### Software
