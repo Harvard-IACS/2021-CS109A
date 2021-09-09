@@ -1,0 +1,249 @@
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyter_server/transutils.py:13: FutureWarning: The alias `_()` will be deprecated. Use `_i18n()` instead.
+  warnings.warn(warn_msg, FutureWarning)
+[I 2021-09-08 12:27:56.276 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2021-09-08 12:27:56.287 ServerApp] jupyterlab | extension was successfully linked.
+[I 2021-09-08 12:27:56.287 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2021-09-08 12:27:56.675 ServerApp] nbclassic | extension was successfully linked.
+[I 2021-09-08 12:27:56.675 ServerApp] nbdime | extension was successfully linked.
+[I 2021-09-08 12:27:56.750 ServerApp] nbclassic | extension was successfully loaded.
+[I 2021-09-08 12:27:56.751 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2021-09-08 12:27:56.752 LabApp] JupyterLab extension loaded from /home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyterlab
+[I 2021-09-08 12:27:56.753 LabApp] JupyterLab application directory is /home/chris/.local/miniconda3/envs/cs109a/share/jupyter/lab
+[I 2021-09-08 12:27:56.757 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2021-09-08 12:27:56.762 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2021-09-08 12:27:56.872 ServerApp] nbdime | extension was successfully loaded.
+[I 2021-09-08 12:27:56.873 ServerApp] Serving notebooks from local directory: /home/chris
+[I 2021-09-08 12:27:56.873 ServerApp] Jupyter Server 1.10.2 is running at:
+[I 2021-09-08 12:27:56.873 ServerApp] http://localhost:8888/lab?token=35ca57d418c4d2db9f289a015ea80ba2a0ded88d5d47f875
+[I 2021-09-08 12:27:56.873 ServerApp]  or http://127.0.0.1:8888/lab?token=35ca57d418c4d2db9f289a015ea80ba2a0ded88d5d47f875
+[I 2021-09-08 12:27:56.874 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2021-09-08 12:27:56.994 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/chris/.local/share/jupyter/runtime/jpserver-109816-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=35ca57d418c4d2db9f289a015ea80ba2a0ded88d5d47f875
+     or http://127.0.0.1:8888/lab?token=35ca57d418c4d2db9f289a015ea80ba2a0ded88d5d47f875
+[109919:109919:0908/122757.350382:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is swiftshader
+[I 2021-09-08 12:28:01.765 LabApp] Build is up to date
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 2021-09-08 12:28:03.194 ServerApp] Notebook CS109/2021-CS109A-private/lectures/lecture02/Lec2_Ex1_solutions.ipynb is not trusted
+[W 2021-09-08 12:28:03.243 ServerApp] Notebook CS109/2021-CS109A-private/lectures/lecture02/Lec2_Ex2.ipynb is not trusted
+[W 2021-09-08 12:28:03.283 ServerApp] Notebook CS109/2021-CS109A-private/lectures/lecture02/Lec2_Ex1.ipynb is not trusted
+[W 2021-09-08 12:28:03.327 ServerApp] Notebook CS109/2021-CS109A-private/lectures/lecture02/Lec2_Ex2_solutions.ipynb is not trusted
+-\|/-\|/-\|/-/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+Opening in existing browser session.
+[I 2021-09-08 12:28:07.395 ServerApp] Kernel started: ee63ee78-f383-42c5-860c-4b0bf9a41edd
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2021-09-08 12:28:07.487 ServerApp] Kernel started: 0334e678-9a4a-4fd8-83bb-90416087dc05
+[I 2021-09-08 12:28:07.496 ServerApp] Kernel started: 36314581-8e13-4008-b12e-2c40c7f98030
+[I 2021-09-08 12:28:07.498 ServerApp] Kernel started: 71c4089f-310c-4e21-a14d-e160b09c3a2c
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 2021-09-08 12:28:39.888 ServerApp] Notebook CS109/2021-CS109A-private/homeworks_playground/hw1/cs109a_hw1_Rubric_and_Solutions_2021.ipynb is not trusted
+/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2021-09-08 12:28:46.696 ServerApp] Kernel started: 4c5636cd-86ab-4cb5-a44a-e09c9f1cee12
+[C 2021-09-08 14:05:11.476 ServerApp] received signal 15, stopping
+[I 2021-09-08 14:05:11.596 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel ee63ee78-f383-42c5-860c-4b0bf9a41edd restarted
+[I 2021-09-08 14:05:11.693 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 0334e678-9a4a-4fd8-83bb-90416087dc05 restarted
+[I 2021-09-08 14:05:11.697 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 36314581-8e13-4008-b12e-2c40c7f98030 restarted
+[I 2021-09-08 14:05:11.744 ServerApp] Starting buffering for 0334e678-9a4a-4fd8-83bb-90416087dc05:52d0467d-0eab-4af3-a4ec-4645b9b932d9
+Task exception was never retrieved
+future: <Task finished name='Task-4242' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2021-09-08 14:05:11.787 ServerApp] Starting buffering for 36314581-8e13-4008-b12e-2c40c7f98030:5fecd324-ca46-4c66-b3f0-774f4cff243d
+Task exception was never retrieved
+future: <Task finished name='Task-4244' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2021-09-08 14:05:11.827 ServerApp] Shutting down 5 extensions
+[I 2021-09-08 14:05:11.836 ServerApp] Starting buffering for ee63ee78-f383-42c5-860c-4b0bf9a41edd:1ce617b9-8c1b-4c9c-baec-97d00f473c16
+[I 2021-09-08 14:05:11.837 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 71c4089f-310c-4e21-a14d-e160b09c3a2c restarted
+[I 2021-09-08 14:05:11.849 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 4c5636cd-86ab-4cb5-a44a-e09c9f1cee12 restarted
+[I 2021-09-08 14:05:11.855 ServerApp] Starting buffering for 71c4089f-310c-4e21-a14d-e160b09c3a2c:6520bdf6-2d9f-4955-823d-abec2bd8f231
+Task exception was never retrieved
+future: <Task finished name='Task-4254' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py:1100> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py", line 1102, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/tornado/websocket.py", line 1104, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2021-09-08 14:05:11.860 ServerApp] Starting buffering for 4c5636cd-86ab-4cb5-a44a-e09c9f1cee12:2ba1f355-6cc7-44b0-9d10-28cb64faf57c
+[I 2021-09-08 14:05:11.998 ServerApp] Shutting down 5 kernels
+[I 2021-09-08 14:05:12.104 ServerApp] Kernel shutdown: ee63ee78-f383-42c5-860c-4b0bf9a41edd
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel/connect.py", line 8, in <module>
+    from subprocess import Popen, PIPE
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/subprocess.py", line 49, in <module>
+[I 2021-09-08 14:05:12.115 ServerApp] Kernel shutdown: 0334e678-9a4a-4fd8-83bb-90416087dc05
+    import signal
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/signal.py", line 15, in <module>
+    _IntEnum._convert_(
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/enum.py", line 555, in _convert_
+[I 2021-09-08 14:05:12.117 ServerApp] Kernel shutdown: 36314581-8e13-4008-b12e-2c40c7f98030
+    cls = cls(name, members, module=module)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/enum.py", line 358, in __call__
+    def __call__(cls, value, names=None, *, module=None, qualname=None, type=None, start=1):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel/connect.py", line 11, in <module>
+    import jupyter_client
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyter_client/__init__.py", line 6, in <module>
+    from .asynchronous import AsyncKernelClient  # noqa
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyter_client/asynchronous/__init__.py", line 1, in <module>
+    from .client import AsyncKernelClient  # noqa
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyter_client/asynchronous/client.py", line 4, in <module>
+    from traitlets import Type  # type: ignore
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/traitlets/__init__.py", line 3, in <module>
+    from . import traitlets
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/traitlets/traitlets.py", line 44, in <module>
+    import inspect
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/inspect.py", line 36, in <module>
+    import dis
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 978, in get_code
+  File "<frozen importlib._bootstrap_external>", line 647, in _compile_bytecode
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel/__init__.py", line 2, in <module>
+    from .connect import *
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/ipykernel/connect.py", line 11, in <module>
+    import jupyter_client
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyter_client/__init__.py", line 6, in <module>
+    from .asynchronous import AsyncKernelClient  # noqa
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyter_client/asynchronous/__init__.py", line 1, in <module>
+    from .client import AsyncKernelClient  # noqa
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/jupyter_client/asynchronous/client.py", line 4, in <module>
+    from traitlets import Type  # type: ignore
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/traitlets/__init__.py", line 3, in <module>
+    from . import traitlets
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site-packages/traitlets/traitlets.py", line 42, in <module>
+    from ast import literal_eval
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 941, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1040, in get_data
+KeyboardInterrupt
+[I 2021-09-08 14:05:12.137 ServerApp] Kernel shutdown: 71c4089f-310c-4e21-a14d-e160b09c3a2c
+Fatal Python error: init_import_site: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 589, in <module>
+    main()
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 576, in main
+    known_paths = addsitepackages(known_paths)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 359, in addsitepackages
+    addsitedir(sitedir, known_paths)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 208, in addsitedir
+    addpackage(sitedir, name, known_paths)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 169, in addpackage
+    exec(line)
+  File "<string>", line 1, in <module>
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/importlib/util.py", line 2, in <module>
+    from . import abc
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/importlib/abc.py", line 17, in <module>
+[I 2021-09-08 14:05:12.146 ServerApp] Kernel shutdown: 4c5636cd-86ab-4cb5-a44a-e09c9f1cee12
+    from typing import Protocol, runtime_checkable
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/typing.py", line 21, in <module>
+    import collections
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/collections/__init__.py", line 39, in <module>
+Fatal Python error: init_import_site: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 589, in <module>
+    main()
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 576, in main
+    known_paths = addsitepackages(known_paths)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 359, in addsitepackages
+    from reprlib import recursive_repr as _recursive_repr
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+    addsitedir(sitedir, known_paths)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 208, in addsitedir
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+    addpackage(sitedir, name, known_paths)
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/site.py", line 169, in addpackage
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+    exec(line)
+  File "<string>", line 1, in <module>
+  File "<frozen importlib._bootstrap_external>", line 951, in get_code
+KeyboardInterrupt
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/importlib/util.py", line 2, in <module>
+    from . import abc
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/importlib/abc.py", line 17, in <module>
+    from typing import Protocol, runtime_checkable
+  File "/home/chris/.local/miniconda3/envs/cs109a/lib/python3.9/typing.py", line 21, in <module>
+    import collections
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 693, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 233, in _verbose_message
+KeyboardInterrupt
+[I 2021-09-08 14:05:12.253 ServerApp] Shutting down 0 terminals
