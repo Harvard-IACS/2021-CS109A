@@ -38,13 +38,13 @@ CS 109a, AC 209a, Stat 121a, or CSCI E-109a
 
 [Pavlos Protopapas](mailto:pavlos@seas.harvard.edu) (SEAS) and [Natesh Pillai](mailto:pillai@fas.harvard.edu) (Statistics)
 
-**Lectures:** Mon & Wed 9:45am-11am in SEC 1.321 Lecture Hall
+**Lectures:** Mon & Wed 9:45am-11am - 114 Western Ave., Allston Room 2.111
 
-**Labs:** Friday 9:45am-11am in SEC 1.321 Lecture Hall
+**Labs:** Friday 9:45am-11am - 114 Western Ave., Allston Room 2.111
 
-**Advanced Sections:** Wed 12:45-2pm [starts 9/22] (room to be announced)
+**Advanced Sections:** Wed 12:45-2pm [starts 9/22] - SEC LL2.229 (see schedule for dates)
 
-**Office Hours:** (times and rooms to be announced)
+**Office Hours:** [Current Times With More To Come](https://edstem.org/us/courses/9045/discussion/594769)
 
 
 **Prerequisites:** You are expected to have programming experience at the level of CS 50 or above, and statistics knowledge at the level of Stat 100 or above (Stat 110 recommended). HW #0 is designed to test your knowledge on the prerequisites. Successful completion of this assignment will show that this course is suitable for you. HW #0 will not be graded but you are required to submit.
@@ -134,9 +134,7 @@ AC209a students will have additional homework content for most assignments worth
 
 **Natesh**: (TBD)
 
-**Pavlos**: (TBD)
-
-**Eleni**: (TBD)
+**Pavlos**: Monday 6:30-7:30 PM [IACS Office]; 7:30-8 PM [Online]
 
 
 #### Participation
