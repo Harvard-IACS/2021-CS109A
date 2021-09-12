@@ -1,6 +1,6 @@
 Date (Mon),Lecture (Mon),Lecture (Wed),Lab (Fri),Advanced Section (Wed),Assignment (R:Released Wed - D:Due Wed),
-30-Aug,No Lecture,"Lecture 1: Intro - ""What is Data Science?""","Lab 1: Data - formats, sources, & scraping",,,
-6-Sep,No Lecture (Labor Day),Lecture 3: Pandas & EDA 1,Lab 2: Pandas & EDA 2,,R:HW1 - D:HW0,
+30-Aug,No Lecture,Lecture 1: Introduction to CS109A,Lab 1: Data - formats, sources, & scraping,,,
+6-Sep,No Lecture (Labor Day),Lecture 2: Introduction to PANDAS and EDA,Lab 2: Pandas & EDA 2,,R:HW1 - D:HW0,
 13-Sep,"Lecture 4: kNN Regression, Linear Regression, Multi & Poly",Lecture 5: Model Selection & Cross Validation,Lab 3:,,R:HW2 - D:HW1,
 20-Sep,Lecture 6: Probability in Regression/ MLE ,Lecture 7: Inference in Regression: Bootstrap & CI,Lab 4:,Advanced Section 1: Linear Algebra Primer,R:HW3 - D:HW2,
 27-Sep,Lecture 8: Hypothesis Testing & Predictive CI,Lecture 9: Regularization,Lab 5: Estimation of Regulariztion Coeffs /w CV,Advanced Section 2: Hypothesis Testing,,
