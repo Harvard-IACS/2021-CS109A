@@ -2,7 +2,7 @@ Title: Lecture 2: Introduction to PANDAS
 Category: lectures
 Slug: lecture02
 Author: Pavlos Protopapas and Natesh Pillai
-Date: 2021-09-??
+Date: 2021-09-08
 Tags: Pandas
 
 ## Slides

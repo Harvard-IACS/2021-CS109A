@@ -2,7 +2,7 @@ Title: Lecture 1: Introduction to CS109A
 Category: lectures
 Slug: lecture01
 Author: Pavlos Protopapas and Natesh Pillai
-Date: 2021-09-??
+Date: 2021-09-01
 Tags: Intro, Content, Instructor, Teaching Fellows, Help
 
 ## Slides
