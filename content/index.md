@@ -72,7 +72,7 @@ Wednesday 9/8 - <a href='https://canvas.harvard.edu/courses/88553/assignments/50
 <hr>
 
 
-<strong>Lectures: Mon </strong> & <strong>Wed</strong> 9:45-11am - SEC Room 3.123
+<strong>Lectures: Mon </strong> & <strong>Wed</strong> 9:45-11am - SEC Room 1.321
 <br/>
 <strong>Lab: Fri </strong> 9:45-11am - l114 Western Ave., Allston Room 2.111
 <br/>

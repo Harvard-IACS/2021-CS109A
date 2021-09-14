@@ -38,7 +38,7 @@ CS 109a, AC 209a, Stat 121a, or CSCI E-109a
 
 [Pavlos Protopapas](mailto:pavlos@seas.harvard.edu) (SEAS) and [Natesh Pillai](mailto:pillai@fas.harvard.edu) (Statistics)
 
-**Lectures:** Mon & Wed 9:45am-11am - SEC Room 3.123
+**Lectures:** Mon & Wed 9:45am-11am - SEC Room 1.321
 
 **Labs:** Friday 9:45am-11am - 114 Western Ave., Allston Room 2.111
 
