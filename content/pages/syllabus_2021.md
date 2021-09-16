@@ -115,7 +115,7 @@ There will be a midterm exam. More details to follow.
 Students will work in groups of 2-4 to complete a final group project, due during the Exams period. See schedule for specific dates.
 
 #### Homework Assignments <a name='homework-assignments'></a>
-There will be 8 graded homework assignments. Some of them will be due one week after being assigned, and some will be due two weeks after being assigned. You have the option to work and submit in pairs for all the assignments **except** HW2 and HW7, which you will do individually.
+There will be 7 graded homework assignments. Some of them will be due one week after being assigned, and some will be due two weeks after being assigned. You have the option to work and submit in pairs for all the assignments **except** HW3 and HW6, which you will do individually.
 
 You will be working in Jupyter Notebooks, which you can run in your own environment or in the SEAS JupyterHub cloud.
 
@@ -235,7 +235,7 @@ Your final score for the course will be computed using the following weights:
 | Assignment              | Final Grade Weight |
 |-------------------------|--------------------|
 | Homework 0              | 1%                 |
-| Paired Homework (6)     | 35% (5% per HW)    |
+| Paired Homework (5)     | 35% (5% per HW)    |
 | Individual Homework (2) | 16% (8% per HW)    |
 | Midterm                 | 10%                |
 | Quizzes                 | 6%                 |
