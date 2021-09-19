@@ -9,4 +9,4 @@ Tags: Intro, Content, Instructor, Teaching Fellows, Help
 - [Lecture 1 : Introduction to CS109A (PDF)]({attach}presentation/Lecture1_Introduction (1).pdf)
 
 ## Exercises
-- [Lecture 1: Exercise: The Data Science Process (Notebook)]({filename}notebook/session1_scaffold.ipynb)
+- [Lecture 1: Exercise: The Data Science Process [Notebook]]({filename}notebook/session1_scaffold.ipynb)

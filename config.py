@@ -16,11 +16,11 @@ COLOR = '#c90016'
 # ex. ('Link Name', 'URL')
 MENUITEMS = [
     ('Syllabus', 'pages/syllabus.html'),
-    #('Calendar', 'pages/calendar.html'),
+    ('Calendar', 'pages/calendar.html'),
     ('Schedule', 'pages/schedule.html'),
-    #('Materials', 'pages/materials.html'),
+    ('Materials', 'pages/materials.html'),
     # ('Videos', 'pages/videos.html'),
-    #('Modules', 'pages/modules.html'),
+    # ('Modules', 'pages/modules.html'),
     # ('Projects', 'pages/projects.html'),
     ('FAQ', 'pages/faq.html'),
     ('Preparation', 'pages/preparation.html')
@@ -86,17 +86,17 @@ PLUGIN_PATHS = ['plugins']
 
 # FOR PAVLOS COMPUTER .....
 # PLUGINS = ['tipue_search']
-PLUGINS = ['ipynb.markup', 'tipue_search']
 
 # from pelican_jupyter import markup as nb_markup
-# PLUGINS = ['ipynb.markup', 'tipue_search']
+PLUGINS = ['ipynb.markup', 'tipue_search']
 # PLUGINS = [nb_markup, 'ipynb.markup', 'tipue_search']
 
 IGNORE_FILES = ['.#*', '.ipynb_checkpoints', 'README.md', "*.html", "__pycache__", "*.pdf", "*.pptx", ".placeholder",
                 ".DS_Store", "*.ipynb-meta", "*.csv", "*.json", "*.txt", "*.xmls"]
 
-STATIC_PATHS = ['lectures', 'labs', 'homeworks', 'a-sections', 'sections', 'wiki', 'images', 'projects', 'slides',
-                'data']
+STATIC_PATHS = ['lectures', 'labs', 'homeworks',
+                # 'a-sections', 'sections', 'wiki',  'images', 'projects', 'slides', 'data'
+                ]
 
 DIRECT_TEMPLATES = ['index', 'search', 'tags', 'category']
 

@@ -1,13 +1,13 @@
 Title: Schedule
 Slug: schedule
-Date: 2021-09-16
+Date: 2021-09-19
 
 
 |Date (Mon)|Lecture (Mon)|Lecture (Wed)|Lab (Fri)|Advanced Section (Wed)|Assignment (R:Released Wed - D:Due Wed)||
 |-----|-----|-----|-----|-----|-----|-----|
 |30-Aug|No Lecture|[Lecture 1: Introduction to CS109A]({filename}/lectures/lecture01/index.md)|Lab 1: Data - formats\| sources\| & scraping||||
 |6-Sep|No Lecture (Labor Day)|[Lecture 2: Introduction to PANDAS and EDA]({filename}/lectures/lecture02/index.md)|Lab 2: Pandas & EDA 2||R:HW1 - D:HW0||
-|13-Sep|Lecture 3: kNN Regression, Linear Regression, Multi & Poly|Lecture 4: Model Selection & Cross Validation|Lab 3:||R:HW2 - D:HW1||
+|13-Sep|[Lecture 3: Introduction to Regression kNN and Linear Regression]({filename}/lectures/lecture03/index.md)|[Lecture 4: Multi-linear and Polynomial Regression]({filename}/lectures/lecture04/index.md)|Lab 3:||R:HW2 - D:HW1||
 |20-Sep|Lecture 5: Probability in Regression/ MLE |Lecture 6: Inference in Regression: Bootstrap & CI|Lab 4:|Advanced Section 1: Linear Algebra Primer|||
 |27-Sep|Lecture 7: Hypothesis Testing & Predictive CI|Lecture 8: Regularization|Lab 5: Estimation of Regulariztion Coeffs /w CV||R:HW3 - D:HW2||
 |4-Oct|Lecture 9: Missing Data & Imputation|Lecture 10: PCA|Lab 6:|Advanced Section 2: Hypothesis Testing|||
