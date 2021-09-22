@@ -76,7 +76,7 @@ Wednesday 9/8 - <a href='https://canvas.harvard.edu/courses/88553/assignments/50
 <br/>
 <strong>Lab: Fri </strong> 9:45-11am - l114 Western Ave., Allston Room 2.111
 <br/>
-<strong>Advanced Sections: Wed </strong> [starting 9/22] - SEC Room LL2.229 (See course schedule for dates)
+<strong>Advanced Sections: Wed </strong> 12:45-2pm [starting 9/29] - SEC Room LL2.229 (See course schedule for dates)
 <br/>
 <strong>Office Hours: </strong> <a href=https://edstem.org/us/courses/9045/discussion/594769>Current Schedule Here With More To Come</a>
 <br/>

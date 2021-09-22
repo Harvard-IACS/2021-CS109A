@@ -42,7 +42,7 @@ CS 109a, AC 209a, Stat 121a, or CSCI E-109a
 
 **Labs:** Friday 9:45am-11am - 114 Western Ave., Allston Room 2.111
 
-**Advanced Sections:** Wed 12:45-2pm [starts 9/22] - SEC LL2.229 (see schedule for dates)
+**Advanced Sections:** Wed 12:45-2pm [starts 9/29] - SEC LL2.229 (see schedule for dates)
 
 **Office Hours:** [Current Times With More To Come](https://edstem.org/us/courses/9045/discussion/594769)
 

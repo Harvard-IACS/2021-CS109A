@@ -5,82 +5,172 @@
    "metadata": {},
    "source": [
     "## Title :\n",
-    "Exercise: Multi-collinearity vs Model Predictions\n",
+    "Exercise: Simple Multi-linear Regression\n",
     "\n",
     "## Description :\n",
-    "The goal of this exercise is to see how multi-collinearity can affect the predictions of a model.\n",
+    "The aim of this exercise is to understand how to use multi regression. Here we will observe the difference in MSE for each model as the predictors change. \n",
     "\n",
-    "For this, perform a multi-linear regression on the given dataset and compare the coefficients with those from simple linear regression of the individual predictors.\n",
+    "<img src=\"../fig/fig1.png\" style=\"width: 500px;\">\n",
     "\n",
     "## Data Description:\n",
     "\n",
     "## Instructions:\n",
     "\n",
-    "- Read the dataset `colinearity.csv` as a dataframe.\n",
-    "- For each of the predictor variable, create a linear regression model with the same response variable.\n",
-    "- Compute the coefficients for each model and store in a list.\n",
-    "- Fit all predictors using a separate multi-linear regression object.\n",
-    "- Calculate the coefficients of each model.\n",
-    "- Compare the coefficients of the multi-linear regression model with those of the simple linear regression model.\n",
-    "\n",
-    "**DISCUSSION:** Why do you think the coefficients change and what does it mean? \n",
+    "- Read the file `Advertisement.csv` as a dataframe.\n",
+    "- For each instance of the predictor combination, form a model. For example, if you have 2 predictors,  A and B, you will end up getting 3 models - one with only A, one with only B, and one with both A and B.\n",
+    "- Split the data into train and test sets.\n",
+    "- Compute the MSE of each model.\n",
+    "- Print the Predictor - MSE value pair\n",
     "\n",
     "## Hints: \n",
     "\n",
     "<a href=\"https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html\" target=\"_blank\">pd.read_csv(filename)</a>\n",
     "Returns a pandas dataframe containing the data and labels from the file data.\n",
     "\n",
-    "<a href=\"https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html\" target=\"_blank\">pd.DataFrame.drop()</a>\n",
-    "Drop specified labels from rows or columns.\n",
+    "<a href=\"http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.normalize.html\" target=\"_blank\">sklearn.preprocessing.normalize()</a>\n",
+    "Scales input vectors individually to unit norm (vector length).\n",
     "\n",
-    "<a href=\"https://scikit-learn.org/stable/index.html\" target=\"_blank\">sklearn.linear_model.LinearRegression</a>\n",
-    "Returns a linear regression object from the sklearn library.\n",
+    "<a href=\"https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html\" target=\"_blank\">sklearn.model_selection.train_test_split()</a>\n",
+    "Splits the data into random train and test subsets.\n",
     "\n",
-    "<a href=\"https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html\" target=\"_blank\">sklearn.linear_model.LinearRegression.coef_</a>\n",
-    "This attribute returns the coefficient(s) of the linear regression object.\n",
+    "<a href=\"https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html\" target=\"_blank\">sklearn.linear_model.LinearRegression</a>\n",
+    "LinearRegression fits a linear model.\n",
     "\n",
-    "<a href=\"https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html\" target=\"_blank\">sklearn.linear_model.LinearRegression.fit()</a>\n",
-    "Fit linear model to the data.\n",
+    "<a href=\"https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression.fit\" target=\"_blank\">sklearn.linear_model.LinearRegression.fit()</a>\n",
+    "Fits the linear model to the training data.\n",
     "\n",
-    "<a href=\"https://pandas.pydata.org/pandas-docs/version/0.22.0/generated/pandas.Series.reshape.html\" target=\"_blank\">pd.Series.reshape()</a>\n",
-    "Return a np.ndndarray with the values in the specified shape.\n",
-    " \n",
+    "<a href=\"https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html#sklearn.linear_model.LinearRegression.predict\" target=\"_blank\">sklearn.linear_model.LinearRegression.predict()</a>\n",
+    "Predict using the linear model.\n",
+    "\n",
+    "<a href=\"https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html#sklearn.metrics.mean_squared_error\" target=\"_blank\">sklearn.metrics.mean_squared_error()</a>\n",
+    "Computes the mean squared error regression loss\n",
+    "\n",
     "**Note:** This exercise is auto-graded and you can try multiple attempts. "
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 0,
+   "execution_count": 1,
    "metadata": {},
    "outputs": [],
    "source": [
     "# Import necessary libraries\n",
     "import numpy as np\n",
     "import pandas as pd\n",
-    "import seaborn as sns \n",
-    "from pprint import pprint\n",
     "import matplotlib.pyplot as plt\n",
+    "from sklearn import preprocessing\n",
+    "from prettytable import PrettyTable\n",
+    "from sklearn.metrics import mean_squared_error\n",
     "from sklearn.linear_model import LinearRegression\n",
+    "from sklearn.model_selection import train_test_split\n",
     "%matplotlib inline\n"
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": 0,
+   "cell_type": "markdown",
    "metadata": {},
-   "outputs": [],
    "source": [
-    "# Read the file named \"colinearity.csv\" into a Pandas dataframe\n",
-    "df = pd.read_csv(___)\n"
+    "### Reading the dataset"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 0,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [],
    "source": [
-    "# Take a quick look at the dataset\n",
+    "# Read the file \"Advertising.csv\"\n",
+    "df = pd.read_csv(\"Advertising.csv\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>TV</th>\n",
+       "      <th>Radio</th>\n",
+       "      <th>Newspaper</th>\n",
+       "      <th>Sales</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>230.1</td>\n",
+       "      <td>37.8</td>\n",
+       "      <td>69.2</td>\n",
+       "      <td>22.1</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>44.5</td>\n",
+       "      <td>39.3</td>\n",
+       "      <td>45.1</td>\n",
+       "      <td>10.4</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>17.2</td>\n",
+       "      <td>45.9</td>\n",
+       "      <td>69.3</td>\n",
+       "      <td>9.3</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>151.5</td>\n",
+       "      <td>41.3</td>\n",
+       "      <td>58.5</td>\n",
+       "      <td>18.5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>180.8</td>\n",
+       "      <td>10.8</td>\n",
+       "      <td>58.4</td>\n",
+       "      <td>12.9</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "      TV  Radio  Newspaper  Sales\n",
+       "0  230.1   37.8       69.2   22.1\n",
+       "1   44.5   39.3       45.1   10.4\n",
+       "2   17.2   45.9       69.3    9.3\n",
+       "3  151.5   41.3       58.5   18.5\n",
+       "4  180.8   10.8       58.4   12.9"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Take a quick look at the data to list all the predictors\n",
     "df.head()\n"
    ]
   },
@@ -88,145 +178,107 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "#### Creation of Linear Regression Objects"
+    "### Create different multi predictor models "
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 0,
+   "execution_count": 11,
    "metadata": {},
    "outputs": [],
    "source": [
-    "# Choose all the predictors as the variable 'X' (note capitalization of X for multiple features)\n",
-    "X = df.drop([___],axis=1)\n",
+    "### edTest(test_mse) ###\n",
     "\n",
-    "# Choose the response variable 'y' \n",
-    "y = df.___\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 0,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "### edTest(test_coeff) ###\n",
+    "# Initialize a list to store the MSE values\n",
+    "mse_list = []\n",
     "\n",
-    "# Initialize a list to store the beta values for each linear regression model\n",
-    "linear_coef = []\n",
+    "# List of all predictor combinations to fit the curve\n",
+    "cols = [['TV'],['Radio'],['Newspaper'],['TV','Radio'],['TV','Newspaper'],['Radio','Newspaper'],['TV','Radio','Newspaper']]\n",
     "\n",
-    "# Loop over all the predictors\n",
-    "# In each loop \"i\" holds the name of the predictor \n",
-    "for i in X:\n",
+    "# Loop over all the predictor combinations \n",
+    "for i in cols:\n",
+    "\n",
+    "    # Set each of the predictors from the previous list as x\n",
+    "    x = df[i]\n",
     "    \n",
-    "    # Set the current predictor as the variable x\n",
-    "    x = df[[___]]\n",
-    "\n",
-    "    # Create a linear regression object\n",
-    "    linreg = ____\n",
-    "\n",
-    "    # Fit the model with training data \n",
-    "    # Remember to choose only one column at a time i.e. given by x\n",
-    "    linreg.fit(___,___)\n",
     "    \n",
-    "    # Add the coefficient value of the model to the list\n",
-    "    linear_coef.append(linreg.coef_)\n"
+    "    # Set the \"Sales\" column as the reponse variable\n",
+    "    y = df[\"Sales\"]\n",
+    "    \n",
+    "   \n",
+    "    # Split the data into train-test sets with 80% training data and 20% testing data. \n",
+    "    # Set random_state as 0\n",
+    "    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=0)\n",
+    "\n",
+    "    # Initialize a Linear Regression model\n",
+    "    lreg = LinearRegression()\n",
+    "\n",
+    "    # Fit the linear model on the train data\n",
+    "    lreg.fit(x_train, y_train)\n",
+    "    \n",
+    "    # Predict the response variable for the test set using the trained model\n",
+    "    y_pred= lreg.predict(x_test)\n",
+    "    \n",
+    "    # Compute the MSE for the test data\n",
+    "    MSE = mean_squared_error(y_test, y_pred)\n",
+    "    \n",
+    "    # Append the computed MSE to the list\n",
+    "    mse_list.append(MSE)\n"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "### Multi-Linear Regression using all variables"
+    "### Display the MSE with predictor combinations"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "+------------------------------+-------------------+\n",
+      "|          Predictors          |        MSE        |\n",
+      "+------------------------------+-------------------+\n",
+      "|            ['TV']            | 10.18618193453022 |\n",
+      "|          ['Radio']           | 24.23723303713214 |\n",
+      "|        ['Newspaper']         | 32.13714634300907 |\n",
+      "|       ['TV', 'Radio']        | 4.391429763581883 |\n",
+      "|     ['TV', 'Newspaper']      | 8.687682675690592 |\n",
+      "|    ['Radio', 'Newspaper']    | 24.78339548293816 |\n",
+      "| ['TV', 'Radio', 'Newspaper'] | 4.402118291449686 |\n",
+      "+------------------------------+-------------------+\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Helper code to display the MSE for each predictor combination\n",
+    "t = PrettyTable(['Predictors', 'MSE'])\n",
+    "\n",
+    "for i in range(len(mse_list)):\n",
+    "    t.add_row([cols[i],mse_list[i]])\n",
+    "\n",
+    "print(t)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "code",
    "execution_count": 0,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "# Perform multi-linear regression with all predictors\n",
-    "multi_linear = LinearRegression()\n",
-    "\n",
-    "# Fit the multi-linear regression on all features of the entire data\n",
-    "multi_linear.fit(___,___)\n",
-    "\n",
-    "# Get the coefficients (plural) of the model\n",
-    "multi_coef = multi_linear.coef_\n"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "#### Printing the individual $\\beta$ values"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 0,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Helper code to see the beta values of the linear regression models\n",
-    "\n",
-    "print('By simple(one variable) linear regression for each variable:', sep = '\\n')\n",
-    "\n",
-    "for i in range(4):\n",
-    "    pprint(f'Value of beta{i+1} = {linear_coef[i][0]:.2f}')\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 0,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "### edTest(test_multi_coeff) ###\n",
-    "\n",
-    "# Helper code to compare with the values from the multi-linear regression\n",
-    "print('By multi-Linear regression on all variables')\n",
-    "for i in range(4):\n",
-    "    pprint(f'Value of beta{i+1} = {round(multi_coef[i],2)}')\n",
-    "    "
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "⏸ Why do you think the $\\beta$ values are different in the two cases?\n",
-    "\n",
-    "#### A. Because the random seed selected is not as random as we would imagine.\n",
-    "#### B. Because of collinearity between $\\beta_1$ and $\\beta_4$\n",
-    "#### C. Because multi-linear regression is not a stable model\n",
-    "#### D. Because of the measurement error in the data\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 0,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "### edTest(test_chow1) ###\n",
-    "# Submit an answer choice as a string below \n",
-    "# (Eg. if you choose option C, put 'C')\n",
-    "answer1 = '___'\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 0,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# Helper code to visualize the heatmap of the covariance matrix\n",
-    "corrMatrix = df[['x1','x2','x3','x4']].corr() \n",
-    "sns.heatmap(corrMatrix, annot=True) \n",
-    "plt.show()\n"
-   ]
+   "source": []
   }
  ],
  "metadata": {
@@ -249,5 +301,5 @@
   }
  },
  "nbformat": 4,
- "nbformat_minor": 4
+ "nbformat_minor": 2
 }
