@@ -2,7 +2,7 @@ Title: Lecture 3: Introduction to Regression kNN and Linear Regression
 Category: lectures
 Slug: lecture03
 Author: Pavlos Protopapas and Natesh Pillai
-Date: 2021_09-13
+Date: 2021-09-13
 Tags: Knn, Knn Regression, MSE, Data Plotting
 
 ## Slides

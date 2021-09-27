@@ -2,7 +2,7 @@ Title: Lecture 5: Model Selection and Cross Validation
 Category: lectures
 Slug: lecture05
 Author: Pavlos Protopapas and Natesh Pillai
-Date: 2021_09-20
+Date: 2021-09-20
 Tags: Cross Validation, Train Validation Test, K-Fold, Leave-One-Out, Underfitting, Overfitting, MSE
 
 ## Slides
