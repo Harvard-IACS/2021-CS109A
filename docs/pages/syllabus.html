@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+            name="description"
+            content="Fall 2021 - Harvard University, Institute for Applied Computational Science. "
+    />
+    <meta name="author" content="Pavlos Protopapas"/>
+
+    <!-- Bootstrap CSS -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+            integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+            crossorigin="anonymous"
+    />
+
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+            crossorigin="anonymous"
+    />
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+            rel="stylesheet"
+    />
+
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+            rel="stylesheet"
+            href="../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="../style/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="../style/css/iacs.css"/>
+
+    <title>Harvard CS109A | Syllabus</title>
+
+    <style>
+        .navbar {
+            background-color: #c90016
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand" href="..">
+            <img
+                    class="navbar-brand-logo"
+                    src="../style/images/logo.png"
+            />
+            <h3 class="course-title">CS109A</h3>
+        </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarsDefault"
+                aria-controls="navbarsDefault"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/syllabus.html">Syllabus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/materials.html">Materials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/preparation.html">Preparation</a>
+                </li>
+                <form
+                        class="form-inline my-2"
+                        action="../search.html"
+                        onsubmit="return validateForm(this.elements['q'].value);"
+                >
+                    <div class="input-group input-group-sm">
+                        <input
+                                class="form-control"
+                                type="text"
+                                name="q"
+                                placeholder="Search Topic"
+                        />
+                        <div class="input-group-append">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </ul>
+        </div>
+        <!-- .collapse navbar-collapse -->
+    </div>
+    <!-- .container -->
+</nav>
+<main id="content" class="container">
+    <h1>Syllabus</h1>
+    <br/>
+    <hr/>
+    <style>
+        pre {
+            background-color: #F5F5F5;
+            display: block;
+            font-family: monospace;
+            font-size: 14px;
+            white-space: pre;
+            border-color: #999999;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 6px;
+            margin: 1em 0;
+            padding: 5px;
+            white-space: pre-wrap;
+        }
+
+        .containerMain {
+            display: flex;
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+
+    <p><span style='color:red'>
+<strong>TENTATIVE SYLLABUS SUBJECT TO CHANGE</strong>
+</span></p>
+    <h2>Introduction to Data Science (Fall 2021)</h2>
+    <p>CS 109a, AC 209a, Stat 121a, or CSCI E-109a</p>
+    <h3>Course Heads</h3>
+    <p><a href="mailto:pavlos@seas.harvard.edu">Pavlos Protopapas</a> (SEAS) and <a
+            href="mailto:pillai@fas.harvard.edu">Natesh Pillai</a> (Statistics)</p>
+    <p><strong>Lectures:</strong> Mon &amp; Wed 9:45am-11am - SEC Room 1.321</p>
+    <p><strong>Labs:</strong> Friday 9:45am-11am - 114 Western Ave., Allston Room 2.111</p>
+    <p><strong>Advanced Sections:</strong> Wed 12:45-2pm [starts 9/29] - SEC LL2.229 (see schedule for dates)</p>
+    <p><strong>Office Hours:</strong> <a href="https://edstem.org/us/courses/9045/discussion/594769">Current Times With
+        More To Come</a></p>
+    <p><strong>Prerequisites:</strong> You are expected to have programming experience at the level of CS 50 or above,
+        and statistics knowledge at the level of Stat 100 or above (Stat 110 recommended). HW #0 is designed to test
+        your knowledge on the prerequisites. Successful completion of this assignment will show that this course is
+        suitable for you. HW #0 will not be graded but you are required to submit.</p>
+    <hr>
+    <p>Welcome to CS109a/STAT121a/AC209a, also offered by the DCE as CSCI E-109a, Introduction to Data Science. This
+        course is the first half of a one‐year course in data science. The course focuses on the analysis of messy,
+        real-life data to perform predictions using statistical and machine learning methods.</p>
+    <p>Throughout the semester, our content continuously centers around five key facets:</p>
+    <p><strong>1.</strong> data collection ‐ data wrangling, cleaning, and sampling to get a suitable data set;</p>
+    <p><strong>2.</strong> data management ‐ accessing data quickly and reliably;</p>
+    <p><strong>3.</strong> exploratory data analysis – generating hypotheses and building intuition;</p>
+    <p><strong>4.</strong> prediction or statistical learning; and</p>
+    <p><strong>5.</strong> communication – summarizing results through visualization, stories, and interpretable
+        summaries.</p>
+    <p>Only one of CS109a, AC209a, or STAT121a can be taken for credit. Students who have previously taken CS109, AC209,
+        or STAT121 cannot take CS109A, AC 209A, or STAT121A for credit.</p>
+    <hr>
+    <h3>Course Components <a name='course-components'></a></h3>
+    <p>The lectures, labs, and advanced sections will be recorded and accessed through the Zoom section on Canvas for
+        Extension School students.
+        <mark>Attendance is required for on campus students.</mark>
+    </p>
+    <h4>Lectures <a name='lectures'></a></h4>
+    <p>The class meets for lectures twice a week for lectures (M &amp; W). Attending and participating in lectures is a
+        crucial component of learning the material presented in this course.</p>
+    <p><strong>What to expect</strong>
+        <img alt="Class Structure"
+             src="https://raw.githubusercontent.com/Harvard-IACS/2020-CS109A/master/content/pages/ClassSturcture_new_repeat.png?raw=true">
+    </p>
+    <p>A lecture will have the following pedagogy layout which will be repeated:</p>
+    <ul>
+        <li>Asynchronous pre-class exercises of approxmately 30 min. This will include, reading from the textbooks or
+            other sources, watching videos to prepare you for the class.
+        </li>
+        <li>Approx. 10 minutes of Q&amp;A regarding the pre-class exercises and/or review of homework and quiz
+            questions.
+        </li>
+        <li>Live online instruction followed by a short Q/A session</li>
+        <li>Hands-on exercises, on the ED platform.
+            Sessions will help students develop the intuition for the core concepts, provide the necessary mathematical
+            background, and provide guidance on technical details.
+            Sessions will be accompanied by relevant examples to clarify key concepts and techniques.
+        </li>
+    </ul>
+    <h4>Labs <a name='labs'></a></h4>
+    <p>Lab will be held every Friday at the same time and place as lectures. Labs guided hands-on coding challenges
+        which will prepare students for successfully completing the homework assignments.</p>
+    <h4>Quizzes <a name='in-class-quizzes'></a></h4>
+    <p>At the end of each lecture, there will be a short, graded quiz that will cover the pre-class and in-class
+        material; there will be no AC209a content in the quizzes. The quizzes will be available until the next
+        lecture.</p>
+    <p>25% of the quizzes will be dropped from your grade.</p>
+    <h4>Exercises <a name='in-class-exercises'></a></h4>
+    <p>Lectures will include one or more coding exercises focused on the newly introduced material; there will be no
+        AC209a content in the exercises. The exercises are short enough to be completed during the time allotted in
+        lecture but they will remain available until the beginning of the following lecture to accomodate those who
+        cannot attend in real time.</p>
+    <p>Your final grade will be calculated twice: one including exercise grades and one without. You will be given the
+        higher of the two. In this way, exercises can only help your grade.</p>
+    <h5>Advanced Sections <a name='advanced-sections'></a></h5>
+    <p>The course will include advanced sections for 209a students and will cover a different topic per week. These are
+        75-min lectures and will cover advanced topics like the mathematical underpinnings of the methods seen in
+        lecture and hands-on exercises, along with extensions of those methods. The material covered in the advanced
+        sections is </span><strong>required </strong> for all AC209a students. But all students are welcome and
+        encouraged to attendadvanced sections.</p>
+    <p>Note: Advanced sections are not held every week. Consult the course schedule for exact dates.</p>
+    <h4>Exams <a name='exams'></a></h4>
+    <p>There will be a midterm exam. More details to follow.</p>
+    <h4>Projects <a name='projects'></a></h4>
+    <p>Students will work in groups of 2-4 to complete a final group project, due during the Exams period. See schedule
+        for specific dates.</p>
+    <h4>Homework Assignments <a name='homework-assignments'></a></h4>
+    <p>There will be 7 graded homework assignments. Some of them will be due one week after being assigned, and some
+        will be due two weeks after being assigned. You have the option to work and submit in pairs for all the
+        assignments <strong>except</strong> HW3 and HW6, which you will do individually.</p>
+    <p>You will be working in Jupyter Notebooks, which you can run in your own environment or in the SEAS JupyterHub
+        cloud.</p>
+    <p>[Instructions for Setting up Your Environment] (coming soon)</p>
+    <p>[Instructions for Using JupyterHub] (coming soon)</p>
+    <p>On weeks with new assignments, the assignments will be released by Wednesday 3pm.</p>
+    <p>Standard assignments are graded out of 5 points.</p>
+    <p>AC209a students will have additional homework content for most assignments worth 1 point.</p>
+    <h4>Instructor Office Hours</h4>
+    <p><strong>Natesh</strong>: (TBD)</p>
+    <p><strong>Pavlos</strong>: Monday 6:30-7:30 PM [IACS Office]; 7:30-8 PM [Online]</p>
+    <h4>Participation</h4>
+    <p>Students are expected to be actively engaged with the course. This includes:</p>
+    <ol>
+        <li>Attending and participating in lectures</li>
+        <li>Making use of office hours</li>
+        <li>Participating in the Ed discussion forum — both through asking thoughtful questions and by answering the
+            questions of others
+        </li>
+    </ol>
+    <hr>
+    <h3>Recommended Textbook</h3>
+    <p><strong>An Introduction to Statistical Learning</strong> by James, Witten, Hastie, Tibshirani.</p>
+    <p>The book is available here:</p>
+    <p><strong>Free electronic version</strong>: <a href="http://www-bcf.usc.edu/~gareth/ISL/">http://www-bcf.usc.edu/~gareth/ISL/
+        (Links to an external site).</a></p>
+    <p><strong>HOLLIS</strong>: <a
+            href="http://link.springer.com.ezp-prod1.hul.harvard.edu/book/10.1007%2F978-1-4614-7138-7">http://link.springer.com.ezp-prod1.hul.harvard.edu/book/10.1007%2F978-1-4614-7138-7</a>
+    </p>
+    <p><strong>Amazon:</strong> <a
+            href="https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370">https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370
+        (Links to an external site)</a>.</p>
+    <hr>
+    <h3>Course Policies</h3>
+    <h4>Getting Help</h4>
+    <p>For questions about homework, course content, package installation, JupyterHub, and after you have tried to
+        troubleshoot yourselves, the process to get help is:</p>
+    <p><strong>1.</strong> Post the question in <strong>Ed</strong> and get a response from your peers. Note that in Ed
+        questions are visible to everyone. The teaching staff monitors the posts.</p>
+    <p><strong>2.</strong> Go to <strong>Office Hours</strong>; this is the best way to get direct help.</p>
+    <p><strong>3.</strong> For private matters send an email to the <strong>Helpline:</strong> <a
+            href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#115;&#49;&#48;&#57;&#97;&#50;&#48;&#50;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#99;&#115;&#49;&#48;&#57;&#97;&#50;&#48;&#50;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>.
+        The Helpline is monitored by the teaching staff.</p>
+    <p><strong>4.</strong> For personal and confidential matters send an email to the <strong>instructors</strong>.</p>
+    <h4>Collaboration Policy <a name='collaboration-policy'></a></h4>
+    <p>We expect you to adhere to the <a href="http://honor.fas.harvard.edu/honor-code">Harvard Honor Code</a> at all
+        times. Failure to adhere to the honor code and our policies may result in serious penalties, up to and including
+        automatic failure in the course and reference to the ad board.
+        If you work with a partner on an assignment make sure both parties solve all the problems. Do not divide and
+        conquer. You are expected to be intellectually honest and give credit where credit is due.
+        In particular:</p>
+    <ul>
+        <li>if you work with a fellow student but decide to submit individual assignments, include the name of each
+            other in the designated area of the submission.
+        </li>
+        <li>if you work with a fellow student and want to submit the same assignment, you need to form a group prior to
+            the submission. Details in the assignment. Remember, not all assignments will permit group submissions.
+        </li>
+        <li>you need to write your solutions entirely on your own or with your collaborator (e.g., not entirely from
+            Google search results)
+        </li>
+        <li>you are welcome to take ideas from code presented in lecture or section, but you need to change it, adapt it
+            to your style, and ultimately write your own. We do not want to see code copied verbatim from the above
+            sources.
+        </li>
+        <li>if you use code found on the internet, books, or other sources you need to cite those sources.</li>
+        <li>you should not view any written materials or code created by other students for the same assignment;</li>
+        <li>you may not provide or make available solutions to individuals who take or may take this course in the
+            future.
+        </li>
+        <li>if the assignment allows it you may use third-party libraries and example code, so long as the material is
+            available to all students in the class and you give proper attribution. Do not remove any original copyright
+            notices and headers.
+        </li>
+    </ul>
+    <h4>Late or Wrongly Submitted Assignments <a name='late-or-wrongly-submitted-assignments'></a></h4>
+    <p>Each student is allowed <strong>up to 3 late days</strong> over the semester with <strong>at most 1 day</strong>
+        applied to any single homework. Outside of these allotted late days, late homework will not be accepted unless
+        there is a medical (if accompanied by a doctor's note) or other official University-excused reasons. There is no
+        need to ask before using one of your late days.</p>
+    <p><strong>If you forgot to join a Group with your peer</strong> and are asking for the same grade we will accept
+        this with no penalty up to HW3. For homeworks beyond that we feel that you should be familiar with the process
+        of joining groups. After that there will be a penalty of -1 point for both members of the group provided the
+        submission was on time.</p>
+    <h4>Grading Guidelines</h4>
+    <p>Homework will be graded based on:</p>
+    <p><strong>1.</strong> How correct your code is (the Notebook cells should run, we are not troubleshooting code)</p>
+    <p><strong>2.</strong> How you have interpreted the results — we want text not just code. It should be a report.</p>
+    <p><strong>3.</strong> How well you present the results.</p>
+    <p>The scale is 0 to 5 for each assignment.</p>
+    <h4>Re-grade Requests <a name='re-grade-requests'></a></h4>
+    <p>Our graders and instructors make every effort in grading accurately and in giving you a lot of feedback.</p>
+    <p>If you discover that your answer to a homework problem was correct but it was marked as incorrect, send an email
+        to the Helpline with a description of the error. <strong> Please do not submit regrade requests based</strong>
+        <strong>on what you perceive is overly harsh grading</strong>, The points we take off are based on a grading
+        rubric that is being applied uniformly to all submissions.</p>
+    <p><strong>If you decide to send a regrade request</strong>, send an email to the Helpline with subject line
+        "Regrade HW1: Grader=johnsmith" &nbsp;replacing 'HW1' with the current assignment and 'johnsmith' with the name
+        of the grader within  </span><strong>48 hours of the grade release</strong>.</p>
+    <h4>Communication from Staff to Students</h4>
+    <p>Class announcements will be through <strong>Ed</strong>. All homework and will be posted and submitted through
+        <strong>Canvas</strong>. Quizzes are completed on <strong>Ed</strong> as well as all feedback forms.</p>
+    <p><span style="color:red"><strong>NOTE:</strong></span> make sure you adjust your account settings so you can
+        receive emails from Canvas.</p>
+    <h4>Submitting an assignment</h4>
+    <p>Please consult [Homework Policies &amp; Submission Instructions] (coming soon)</p>
+    <h4>Course Grade</h4>
+    <p>Your final score for the course will be computed using the following weights:</p>
+    <table>
+        <thead>
+        <tr>
+            <th>Assignment</th>
+            <th>Final Grade Weight</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Homework 0</td>
+            <td>1%</td>
+        </tr>
+        <tr>
+            <td>Paired Homework (5)</td>
+            <td>35% (5% per HW)</td>
+        </tr>
+        <tr>
+            <td>Individual Homework (2)</td>
+            <td>16% (8% per HW)</td>
+        </tr>
+        <tr>
+            <td>Midterm</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>Quizzes</td>
+            <td>6%</td>
+        </tr>
+        <tr>
+            <td>Exercises</td>
+            <td>6%</td>
+        </tr>
+        <tr>
+            <td>Project</td>
+            <td>26%</td>
+        </tr>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>100%</strong></td>
+        </tr>
+        </tbody>
+    </table>
+    <h4>Software</h4>
+    <p>We will be using Jupyter Notebooks, Python 3, and various python modules. You can access the notebook viewer
+        either on your own machine by installing the <a href="https://docs.continuum.io/anaconda/">Anaconda platform
+            (Links to an external site)</a> which includes Jupyter/IPython as well all packages that will be required
+        for the course, or by using the SEAS JupyterHub from Canvas. Details in class.</p>
+    <h4>Auditing the Class <a name='auditing-the-class'></a></h4>
+    <p>If you would like to audit the class, please send an email to the Helpline indicating who you are and why you
+        want to audit the class. You need a HUID to be included to Canvas. Please note that auditors may not submit
+        assignments for grading or make use of other limited student resources such as office hours.</p></p>
+    <h4>Academic Integrity <a name='academic-integrity'></a></h4>
+    <p>Ethical behavior is an important trait of a Data Scientist, from ethically handling data to attribution of code
+        and work of others. Thus, in CS109A we give a strong emphasis to Academic Honesty.
+        As a student your best guidelines are to be reasonable and fair. We encourage teamwork for problem sets, but you
+        should not split the homework and you should work on all the problems together.
+        For more detailed expectations, please refer to the Collaborations section above.</p>
+    <h4>Accommodations for Students with Disabilities <a name='accommodations-for-students-with-disabilities'></a></h4>
+    <p>Students needing academic adjustments or accommodations because of a documented disability must present their
+        Faculty Letter from the <a href="http://www.aeo.fas.harvard.edu/">Accessible Education Office (AEO)</a> and
+        speak with the professor by the end of the second week of the term, (fill in specific date). Failure to do so
+        may result in the Course Head's inability to respond in a timely manner. All discussions will remain
+        confidential, although Faculty are invited to contact AEO to discuss appropriate implementation.</p>
+    <h4>Diversity and Inclusion Statement <a name='diversity-and-inclusion-statement'></a></h4>
+    <p>Data Science and Computer Science have historically been representative of only a small sliver of the population.
+        This is despite the contributions of a diverse group of early pioneers - see Ada Lovelace, Dorothy Vaughan, and
+        Grace Hopper for just a few examples.</p>
+    <p>As educators, we aim to build a diverse, inclusive, and representative community offering opportunities in data
+        science to those who have been historically marginalized. We will encourage learning that advances ethical data
+        science, exposes bias in the way data science is used, and advances research into fair and responsible data
+        science.</p>
+    <p>We need your help to create a learning environment that supports a diversity of thoughts, perspectives, and
+        experiences, and honors your identities (including but not limited to race, gender, class, sexuality, religion,
+        ability, etc.) To help accomplish this:</p>
+    <ul>
+        <li>
+            <p>If you have a name and/or set of pronouns that differ from those in your official Harvard records, please
+                let us know!</p>
+        </li>
+        <li>
+            <p>If you feel like your performance in the class is being impacted by your experiences outside of class,
+                please do not hesitate to come and talk with us. We want to be a resource for you. Remember that you can
+                also submit anonymous feedback (which will lead to us making a general announcement to the class, if
+                necessary, to address your concerns). If you prefer to speak with someone outside of the course, you may
+                find helpful resources at the Harvard Office of Diversity and Inclusion.</p>
+        </li>
+        <li>
+            <p>We (like many people) are still learning about diverse perspectives and identities. If something was said
+                in class (by anyone) that made you feel uncomfortable, please talk to us about it.</p>
+        </li>
+        <li>
+            <p>As a participant in course discussions, you are expected to respect your classmates’ diverse backgrounds
+                and perspectives.</p>
+        </li>
+    </ul>
+    <p>Our course will discuss diversity, inclusion, and ethics in data science. Please contact us (in person or
+        electronically) or submit anonymous feedback if you have any suggestions for how we can improve.</p>
+    <h4>Extension School Policies</h4>
+    <p><strong>Accommodation Requests.</strong> Harvard Extension School is committed to providing an inclusive,
+        accessible academic community for students with disabilities and chronic health conditions. The Accessibility
+        Services Office (ASO) <a
+                href='https://extension.harvard.edu/for-students/support-and-services/accessibility-services/'
+                target='_blank'>(https://extension.harvard.edu/for-students/support-and-services/accessibility-services/)</a>
+        offers accommodations and support to students with documented disabilities. If you have a need for
+        accommodations or adjustments, contact Accessibility Services directly via email at
+        accessibility@extension.harvard.edu or by phone at 617-998-9640.</p>
+    <p><strong>Academic Integrity.</strong> You are responsible for understanding Harvard Extension School policies on
+        academic integrity <a
+                href='https://extension.harvard.edu/for-students/student-policies-conduct/academic-integrity/'
+                target='_blank'>(https://extension.harvard.edu/for-students/student-policies-conduct/academic-integrity/)</a>and
+        how to use sources responsibly. Stated most broadly, academic integrity means that all course work submitted,
+        whether a draft or a final version of a paper, project, take-home exam, online exam, computer program, oral
+        presentation, or lab report, must be your own words and ideas, or the sources must be clearly acknowledged. The
+        potential outcomes for violations of academic integrity are serious and ordinarily include all of the following:
+        required withdrawal (RQ), which means a failing grade in the course (with no refund), the suspension of
+        registration privileges, and a notation on your transcript.</p>
+    <p>Using sources responsibly <a
+            href='https://extension.harvard.edu/for-students/support-and-services/using-sources-effectively-and-responsibly/'
+            target='_blank'>(https://extension.harvard.edu/for-students/support-and-services/using-sources-effectively-and-responsibly/)</a>
+        is an essential part of your Harvard education. We provide additional information about our expectations
+        regarding academic integrity on our website. We invite you to review that information and to check your
+        understanding of academic citation rules by completing two free online 15-minute tutorials that are also
+        available on our site. (The tutorials are anonymous open-learning tools.)</p>
+</main>
+
+<footer class="footer">
+    <div class="container">
+    <span class="text-muted">Copyright 2021 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+    </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>

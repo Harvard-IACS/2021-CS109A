@@ -1,0 +1,369 @@
+name,club,age,position,position_cat,market_value,page_views,fpl_points,region,nationality,new_foreign,club_id,new_signing,big_club,age_cat
+Mamadou Sakho,Liverpool,27,CB,3,15.0,934,35,2.0,France,0,10,0,1,3
+DeAndre Yedlin,Newcastle+United,24,RB,3,5.0,764,0,3.0,United States,0,13,0,0,2
+Alexandre Lacazette,Arsenal,26,CF,1,40.0,1183,0,2.0,France,1,1,0,1,3
+Jordon Ibe,Bournemouth,21,RW,1,8.0,504,36,1.0,England,0,2,0,0,1
+Alfie Mawson,Swansea,23,CB,3,6.0,509,94,1.0,England,0,16,1,0,2
+Ben Foster,West+Brom,34,GK,4,4.0,484,113,1.0,England,0,19,0,0,6
+Willy Caballero,Chelsea,35,GK,4,1.5,542,64,3.0,Argentina,0,5,0,1,6
+Hal Robson-Kanu,West+Brom,28,LW,1,2.5,766,52,2.0,Wales,0,19,1,0,4
+Tomer Hemed,Brighton+and+Hove,30,CF,1,2.5,253,0,4.0,Israel,0,3,0,0,4
+Diafra Sakho,West+Ham,27,CF,1,10.0,214,12,4.0,Senegal,0,20,0,0,3
+Dale Stephens,Brighton+and+Hove,27,CM,2,5.0,122,0,1.0,England,0,3,0,0,3
+Pedro Obiang,West+Ham,25,CM,2,9.0,286,55,2.0,Spain,0,20,0,0,3
+Will Hughes,Watford,22,CM,2,8.0,258,0,1.0,England,1,18,0,0,2
+Charlie Austin,Southampton,28,CF,1,13.0,874,62,1.0,England,0,14,0,0,4
+Jefferson Montero,Swansea,27,LW,1,4.5,187,18,3.0,Ecuador,0,16,0,0,3
+Kasey Palmer,Huddersfield,20,AM,1,0.75,220,0,1.0,England,0,8,0,0,1
+Kiko Femenia,Watford,26,RB,3,4.0,74,0,2.0,Spain,1,18,0,0,3
+Theo Walcott,Arsenal,28,RW,1,20.0,2393,122,1.0,England,0,1,0,1,4
+Kevin Mirallas,Everton,29,RW,1,13.0,417,119,2.0,Belgium,0,7,0,0,4
+Nathan Dyer,Swansea,29,RW,1,3.5,313,12,1.0,England,0,16,0,0,4
+Jose Holebas,Watford,33,LB,3,2.0,345,87,2.0,Greece,0,18,0,0,5
+Sebastian Prodl,Watford,30,CB,3,4.0,169,67,2.0,Austria,0,18,0,0,4
+Kurt Zouma,Chelsea,22,CB,3,15.0,723,15,2.0,France,0,5,0,1,2
+Yohan Cabaye,Crystal+Palace,31,CM,2,15.0,456,91,2.0,France,0,6,0,0,4
+Rajiv van La Parra,Huddersfield,26,LW,1,2.0,174,0,2.0,Netherlands,0,8,0,0,3
+Jeff Hendrick,Burnley,25,CM,2,6.0,352,76,2.0,Ireland,0,4,1,0,3
+Sergio Aguero,Manchester+City,29,CF,1,65.0,4046,175,3.0,Argentina,0,11,0,1,4
+Rolando Aarons,Newcastle+United,21,LW,1,0.75,170,0,1.0,England,0,13,0,0,1
+Islam Slimani,Leicester+City,29,CF,1,25.0,1581,83,4.0,Algeria,0,9,1,0,4
+Matt Phillips,West+Brom,26,RW,1,9.0,454,115,2.0,Scotland,0,19,1,0,3
+Antonio Rudiger,Chelsea,24,CB,3,25.0,454,0,2.0,Germany,1,5,0,1,2
+Lee Chung-yong,Crystal+Palace,29,RW,1,1.5,327,24,4.0,South Korea,0,6,0,0,4
+Karl Darlow,Newcastle+United,26,GK,4,4.5,235,0,1.0,England,0,13,0,0,3
+Bruno,Brighton+and+Hove,36,RB,1,0.5,215,0,3.0,Argentina,0,3,0,0,6
+Kenedy,Chelsea,21,LB,3,7.0,566,3,3.0,Brazil,0,5,0,1,1
+Harry Arter,Bournemouth,27,CM,2,2.5,666,84,2.0,Ireland,0,2,0,0,3
+Johann Berg Gudmundsson,Burnley,26,RW,1,2.5,180,47,2.0,Iceland,0,4,1,0,3
+Toby Alderweireld,Tottenham,28,CB,3,35.0,756,120,2.0,Belgium,0,17,0,1,4
+Robert Huth,Leicester+City,32,CB,3,5.0,748,88,2.0,Germany,0,9,0,0,5
+Michail Antonio,West+Ham,27,RW,1,18.0,1142,132,1.0,England,0,20,0,0,3
+Luciano Narsingh,Swansea,26,RW,1,5.0,448,25,2.0,Netherlands,0,16,0,0,3
+Sergio Romero,Manchester+United,30,GK,4,6.0,849,23,3.0,Argentina,0,12,0,1,4
+Kabasele,Watford,26,CB,3,5.5,177,35,2.0,Belgium,0,18,1,0,3
+Connor Wickham,Crystal+Palace,24,CF,1,6.0,248,18,1.0,England,0,6,0,0,2
+Ramadan Sobhi,Stoke+City,20,LW,1,5.0,461,36,4.0,Egypt,0,15,1,0,1
+Erik Lamela,Tottenham,25,RW,1,25.0,672,28,3.0,Argentina,0,17,0,1,3
+Martin Kelly,Crystal+Palace,27,RB,3,3.0,210,46,1.0,England,0,6,0,0,3
+Jack Wilshere,Arsenal,25,CM,2,18.0,1759,61,1.0,England,0,1,0,1,3
+Lys Mousset,Bournemouth,21,CF,1,4.0,131,14,2.0,France,0,2,0,0,1
+Bernardo Silva,Manchester+City,22,RW,1,40.0,1098,0,2.0,Portugal,1,11,0,1,2
+Charlie Daniels,Bournemouth,30,LB,3,3.0,185,134,1.0,England,0,2,0,0,4
+Steven Defour,Burnley,29,CM,2,6.0,336,54,2.0,Belgium,0,4,1,0,4
+Dean Whitehead,Huddersfield,35,CM,2,0.25,161,0,1.0,England,0,8,0,0,6
+Tom Cleverley,Watford,27,CM,2,8.0,703,55,1.0,England,0,18,0,0,3
+Chris Lowe,Huddersfield,28,LB,3,1.5,84,0,2.0,Germany,0,8,0,0,4
+Trent Alexander-Arnold,Liverpool,18,RB,3,1.5,327,15,2.0,England,0,10,0,1,1
+Joe Allen,Stoke+City,27,CM,2,15.0,523,118,2.0,Wales,0,15,1,0,3
+Shane Long,Southampton,30,CF,1,9.0,703,57,2.0,Ireland,0,14,0,0,4
+Shkodran Mustafi,Arsenal,25,CB,3,30.0,1877,90,2.0,Germany,0,1,1,1,3
+Benik Afobe,Bournemouth,24,CF,1,10.0,528,88,4.0,Congo DR,0,2,0,0,2
+Roberto Pereyra,Watford,26,AM,1,15.0,398,43,3.0,Argentina,0,18,1,0,3
+Granit Xhaka,Arsenal,24,DM,2,35.0,1815,85,2.0,Switzerland,0,1,0,1,2
+Ryan Shawcross,Stoke+City,29,CB,3,11.0,281,94,2.0,England,0,15,0,0,4
+Steven Fletcher,Stoke+City,30,CF,1,3.0,522,103,2.0,Scotland,0,15,0,0,4
+Francis Coquelin,Arsenal,26,DM,2,15.0,549,52,2.0,France,0,1,0,1,3
+Wayne Rooney,Everton,31,SS,1,15.0,7664,76,1.0,England,0,7,0,0,4
+Christian Eriksen,Tottenham,25,AM,1,40.0,1130,218,2.0,Denmark,0,17,0,1,3
+Damien Delaney,Crystal+Palace,36,CB,3,1.0,195,51,2.0,Ireland,0,6,0,0,6
+Divock Origi,Liverpool,22,CF,1,12.0,1092,96,2.0,Belgium,0,10,0,1,2
+Jeffrey Schlupp,Crystal+Palace,24,LB,3,8.0,385,47,4.0,Ghana,0,6,0,0,2
+Ashley Barnes,Burnley,27,CF,1,2.5,287,81,1.0,England,0,4,0,0,3
+Nathaniel Chalobah,Watford,22,DM,2,5.0,977,12,1.0,England,0,18,0,0,2
+Peter Crouch,Stoke+City,36,CF,1,1.5,2656,79,1.0,England,0,15,0,0,6
+Joel Ward,Crystal+Palace,27,RB,3,5.0,154,86,1.0,England,0,6,0,0,3
+Carl Jenkinson,Arsenal,25,RB,3,5.0,561,2,1.0,England,0,1,0,1,3
+Victor Wanyama,Tottenham,26,DM,2,25.0,1002,103,4.0,Kenya,0,17,1,1,3
+Danny Ings,Liverpool,24,CF,1,8.0,748,0,1.0,England,0,10,0,1,2
+Scott Arfield,Burnley,28,LM,2,3.0,304,69,3.0,Canada,0,4,0,0,4
+Gary Cahill,Chelsea,31,CB,3,16.0,1420,178,1.0,England,0,5,0,1,4
+Dele Alli,Tottenham,21,CM,2,45.0,4626,225,1.0,England,0,17,0,1,1
+Valon Behrami,Watford,32,DM,2,2.5,237,48,2.0,Switzerland,0,18,0,0,5
+Pierre-Emile Hojbjerg,Southampton,21,CM,2,8.0,368,38,2.0,Denmark,0,14,1,0,1
+Mike van der Hoorn,Swansea,24,CB,3,2.0,154,16,2.0,Netherlands,0,16,1,0,2
+Tom Ince,Huddersfield,25,RW,1,7.0,512,0,1.0,England,0,8,0,0,3
+Salomon Rondon,West+Brom,27,CF,1,15.0,502,118,3.0,Venezuela,0,19,0,0,3
+Daley Blind,Manchester+United,27,LB,3,22.0,867,98,2.0,Netherlands,0,12,0,1,3
+Daryl Janmaat,Watford,27,RB,3,7.0,242,50,2.0,Netherlands,0,18,1,0,3
+Junior Stanislas,Bournemouth,27,LW,1,4.5,315,107,1.0,England,0,2,0,0,3
+Gylfi Sigurdsson,Swansea,27,AM,1,25.0,861,181,2.0,Iceland,0,16,0,0,3
+Isaac Success,Watford,21,LW,1,4.0,474,28,4.0,Nigeria,0,18,1,0,1
+Jake Livermore,West+Brom,27,DM,2,7.0,564,77,1.0,England,0,19,0,0,3
+Nemanja Matic,Chelsea,28,DM,2,35.0,892,105,2.0,Serbia,0,5,0,1,4
+Gabriel Paulista,Arsenal,26,CB,3,13.0,552,45,3.0,Brazil,0,1,0,1,3
+James Milner,Liverpool,31,CM,2,12.0,1824,139,1.0,England,0,10,0,1,4
+Danny Rose,Tottenham,27,LB,3,28.0,848,84,1.0,England,0,17,0,1,3
+Luke Shaw,Manchester+United,22,LB,3,20.0,947,45,1.0,England,0,12,0,1,2
+Tom Davies,Everton,19,CM,2,8.0,1354,63,1.0,England,0,7,0,0,1
+Marc Albrighton,Leicester+City,27,LM,2,6.0,347,95,1.0,England,0,9,0,0,3
+Rob Elliot,Newcastle+United,31,GK,4,1.0,134,0,2.0,Ireland,0,13,0,0,4
+Mauro Zarate,Watford,30,SS,1,2.0,473,8,3.0,Argentina,0,18,0,0,4
+Kelechi Iheanacho,Manchester+City,20,CF,1,15.0,1662,52,4.0,Nigeria,0,11,0,1,1
+Connor Goldson,Brighton+and+Hove,24,CB,3,0.75,52,0,1.0,England,0,3,0,0,2
+Bojan KrkiÄ‡,Stoke+City,26,SS,1,5.0,1325,30,2.0,Spain,0,15,0,0,3
+Demarai Gray,Leicester+City,21,LW,1,9.0,593,58,1.0,England,0,9,0,0,1
+Michael Hefele,Huddersfield,26,CB,3,1.5,116,0,2.0,Germany,0,8,0,0,3
+Sam Baldock,Brighton+and+Hove,28,CF,1,3.0,204,0,1.0,England,0,3,0,0,4
+Fraser Forster,Southampton,29,GK,4,15.0,548,134,1.0,England,0,14,0,0,4
+Cedric Soares,Southampton,25,RB,3,15.0,338,102,2.0,Portugal,0,14,0,0,3
+Jack Butland,Stoke+City,24,GK,4,15.0,402,20,1.0,England,0,15,0,0,2
+Jeremy Pied,Southampton,28,RM,2,3.5,136,5,2.0,France,0,14,1,0,4
+James McCarthy,Everton,26,CM,2,15.0,306,23,2.0,Ireland,0,7,0,0,3
+Mohamed Elneny,Arsenal,25,DM,2,10.0,683,26,4.0,Egypt,0,1,0,1,3
+Claudio Yacob,West+Brom,30,DM,2,4.0,165,54,3.0,Argentina,0,19,0,0,4
+Vincent Kompany,Manchester+City,31,CB,3,22.0,935,57,2.0,Belgium,0,11,0,1,4
+Julian Speroni,Crystal+Palace,38,GK,4,0.25,188,0,3.0,Argentina,0,6,0,0,6
+Adam Smith,Bournemouth,26,RB,3,5.0,200,104,1.0,England,0,2,0,0,3
+Yohan Benalouane,Leicester+City,30,CB,3,1.0,305,27,4.0,Tunisia,0,9,0,0,4
+Eduardo Carvalho,Chelsea,34,LW,1,0.05,467,0,2.0,Portugal,0,5,1,1,6
+Jamie Murphy,Brighton+and+Hove,27,LW,1,1.75,114,0,2.0,Scotland,0,3,0,0,3
+Hugo Lloris,Tottenham,30,GK,4,24.0,847,143,2.0,France,0,17,0,1,4
+Yaya Toure,Manchester+City,34,CM,2,8.0,2318,86,4.0,Cote d'Ivoire,0,11,0,1,6
+Ben Davies,Tottenham,24,LB,3,12.0,396,90,2.0,Wales,0,17,0,1,2
+Glen Johnson,Stoke+City,32,RB,3,5.0,512,56,1.0,England,0,15,0,0,5
+Wilfred Ndidi,Leicester+City,20,DM,2,14.0,821,59,4.0,Nigeria,0,9,1,0,1
+Tom Heaton,Burnley,31,GK,4,4.0,717,149,1.0,England,0,4,0,0,4
+Daniel Sturridge,Liverpool,27,CF,1,20.0,2042,54,1.0,England,0,10,0,1,3
+Sheyi Ojo,Liverpool,20,LW,1,2.0,383,0,1.0,England,0,10,0,1,1
+Jason McCarthy,Southampton,21,CB,3,0.25,53,0,1.0,England,0,14,0,0,1
+Åukasz FabiaÅ„ski,Swansea,32,GK,4,9.0,285,116,2.0,Poland,0,16,0,0,5
+James McArthur,Crystal+Palace,29,CM,2,7.0,216,93,2.0,Scotland,0,6,0,0,4
+Manolo Gabbiadini,Southampton,25,CF,1,15.0,2012,38,2.0,Italy,0,14,0,0,3
+Leighton Baines,Everton,32,LB,3,12.0,491,135,1.0,England,0,7,0,0,5
+Phil Jagielka,Everton,34,CB,3,2.0,566,104,1.0,England,0,7,0,0,6
+Matthew Lowton,Burnley,28,RB,3,2.5,121,90,1.0,England,0,4,0,0,4
+Stefano Okaka,Watford,27,CF,1,6.0,708,43,2.0,Italy,0,18,1,0,3
+Dan Gosling,Bournemouth,27,CM,2,3.0,184,49,1.0,England,0,2,0,0,3
+Ben Hamer,Leicester+City,29,GK,4,0.5,132,0,1.0,England,0,9,0,0,4
+James Ward-Prowse,Southampton,22,CM,2,15.0,416,92,1.0,England,0,14,0,0,2
+Lewis Cook,Bournemouth,20,CM,2,6.0,243,17,1.0,England,0,2,0,0,1
+Max Gradel,Bournemouth,29,LW,1,7.0,287,8,4.0,Cote d'Ivoire,0,2,0,0,4
+Antonio Valencia,Manchester+United,31,RB,3,10.0,1561,120,3.0,Ecuador,0,12,0,1,4
+Andre Ayew,West+Ham,27,LW,1,18.0,845,89,4.0,Ghana,0,20,1,0,3
+Matthew Taylor,Burnley,35,LM,2,0.25,255,0,1.0,England,0,4,0,0,6
+Marko Grujic,Liverpool,21,CM,2,5.0,615,4,2.0,Serbia,0,10,0,1,1
+Marc Muniesa,Stoke+City,25,CB,3,3.0,172,34,2.0,Spain,0,15,0,0,3
+Phil Jones,Manchester+United,25,CB,3,14.0,808,55,1.0,England,0,12,0,1,3
+Cesar Azpilicueta,Chelsea,27,RB,3,30.0,869,170,2.0,Spain,0,5,0,1,3
+Harry Winks,Tottenham,21,CM,2,4.0,806,30,1.0,England,0,17,0,1,1
+Pablo Zabaleta,West+Ham,32,RB,3,7.0,698,45,3.0,Argentina,0,20,0,0,5
+Arthur Masuaku,West+Ham,23,LB,3,7.0,199,34,4.0,Congo DR,0,20,1,0,2
+Andy Carroll,West+Ham,28,CF,1,10.0,1212,69,1.0,England,0,20,0,0,4
+Muhamed Besic,Everton,24,DM,2,5.0,238,0,2.0,Germany,0,7,0,0,2
+Adam Federici,Bournemouth,32,GK,4,1.0,126,8,4.0,Australia,0,2,0,0,5
+Danny Simpson,Leicester+City,30,RB,3,5.0,428,85,1.0,England,0,9,0,0,4
+Uwe Hunemeier,Brighton+and+Hove,31,CB,3,1.5,88,0,2.0,Germany,0,3,0,0,4
+Oliver McBurnie,Swansea,21,CF,1,0.25,149,5,2.0,Scotland,0,16,0,0,1
+Ragnar Klavan,Liverpool,31,CB,3,3.5,875,43,2.0,Estonia,0,10,1,1,4
+Solly March,Brighton+and+Hove,23,RM,2,0.5,139,0,1.0,England,0,3,0,0,2
+Christian Atsu,Newcastle+United,25,RW,1,5.0,641,0,4.0,Ghana,0,13,0,0,3
+Kyle Naughton,Swansea,28,RB,3,5.0,170,82,1.0,England,0,16,0,0,4
+Matthew Pennington,Everton,22,CB,3,0.5,219,9,1.0,England,0,7,0,0,2
+Ander Herrera,Manchester+United,27,CM,2,30.0,1603,97,2.0,Spain,0,12,0,1,3
+Jay Fulton,Swansea,23,CM,2,0.5,104,19,2.0,Scotland,0,16,0,0,2
+Craig Cathcart,Watford,28,CB,3,4.0,128,31,2.0,Northern Ireland,0,18,0,0,4
+Costel Pantilimon,Watford,30,GK,4,3.0,268,2,2.0,Romania,0,18,0,0,4
+Modou Barrow,Swansea,24,RW,1,3.0,437,34,4.0,The Gambia,0,16,0,0,2
+Jesse Lingard,Manchester+United,24,LW,1,12.0,1939,60,1.0,England,0,12,0,1,2
+Allan Nyom,West+Brom,29,RB,3,4.5,236,74,4.0,Cameroon,0,19,1,0,4
+Romelu Lukaku,Manchester+United,24,CF,1,50.0,3727,221,2.0,Belgium,0,12,0,1,2
+Ederson Moraes,Manchester+City,23,GK,4,22.0,297,0,3.0,Brazil,1,11,0,1,2
+Dean Marney,Burnley,33,CM,2,1.0,171,51,1.0,England,0,4,0,0,5
+Daniel Amartey,Leicester+City,22,DM,2,5.0,356,53,4.0,Ghana,0,9,0,0,2
+Fernandinho,Manchester+City,32,DM,2,18.0,595,78,3.0,Brazil,0,11,0,1,5
+Eric Bailly,Manchester+United,23,CB,3,30.0,1588,105,4.0,Cote d'Ivoire,0,12,1,1,2
+Matt Ritchie,Newcastle+United,27,RM,2,9.0,566,0,2.0,Scotland,0,13,0,0,3
+Tammy Abraham,Swansea,19,CF,1,8.0,1227,0,1.0,England,0,16,0,0,1
+Leonardo Ulloa,Leicester+City,30,CF,1,6.0,472,24,2.0,Argentina,0,9,0,0,4
+Glenn Murray,Brighton+and+Hove,33,CF,1,3.5,496,0,1.0,England,0,3,0,0,5
+Moussa Sissokho,Tottenham,27,CM,2,20.0,1162,43,2.0,France,0,17,1,1,3
+Adrian,West+Ham,30,GK,4,8.0,266,64,2.0,Spain,0,20,0,0,4
+Ilkay Gundogan,Manchester+City,26,CM,2,30.0,1586,41,2.0,Germany,0,11,1,1,3
+Collin Quaner,Huddersfield,26,CF,1,1.0,126,0,2.0,Germany,0,8,0,0,3
+Jack Payne,Huddersfield,25,CM,2,0.25,81,0,1.0,England,0,8,0,0,3
+Troy Deeney,Watford,29,CF,1,11.0,1141,130,1.0,England,0,18,0,0,4
+Pedro,Chelsea,29,RW,1,28.0,1500,162,2.0,Spain,0,5,0,1,4
+Florian Lejeune,Newcastle+United,26,CB,3,5.0,65,0,2.0,France,0,13,0,0,3
+Jon Gorenc Stankovic,Huddersfield,21,CB,3,0.5,83,0,2.0,Slovenia,0,8,0,0,1
+Mark Hudson,Huddersfield,35,CB,3,0.5,70,0,1.0,England,0,8,0,0,6
+Wilfried Zaha,Crystal+Palace,24,RW,1,18.0,1709,149,4.0,Cote d'Ivoire,0,6,0,0,2
+Wes Morgan,Leicester+City,33,CB,3,3.0,649,63,3.0,Jamaica,0,9,0,0,5
+Andrew Surman,Bournemouth,30,CM,2,2.0,154,44,1.0,England,0,2,0,0,4
+Jordan Henderson,Liverpool,27,CM,2,28.0,1236,73,1.0,England,0,10,0,1,3
+Emre Can,Liverpool,23,DM,2,15.0,1253,104,2.0,Germany,0,10,0,1,2
+Liam Rosenior,Brighton+and+Hove,33,RB,3,1.0,132,0,1.0,England,0,3,0,0,5
+Mathew Ryan,Brighton+and+Hove,25,GK,4,3.5,344,0,4.0,Australia,0,3,0,0,3
+Georginio Wijnaldum,Liverpool,26,CM,2,28.0,1280,149,2.0,Netherlands,0,10,1,1,3
+Sadio Mane,Liverpool,25,LW,1,40.0,3219,156,4.0,Senegal,0,10,1,1,3
+Philippe Coutinho,Liverpool,25,AM,1,45.0,2958,171,3.0,Brazil,0,10,0,1,3
+Elias Kachunga,Huddersfield,25,RW,1,3.5,231,0,4.0,Congo DR,0,8,0,0,3
+Darren Randolph,West+Ham,30,GK,4,2.5,459,69,2.0,Ireland,0,20,0,0,4
+Sead Kolasinac,Arsenal,24,LB,3,15.0,618,0,2.0,Bosnia,1,1,0,1,2
+Aaron Ramsey,Arsenal,26,CM,2,35.0,1040,56,1.0,Wales,0,1,0,1,3
+Artur Boruc,Bournemouth,37,GK,4,1.0,436,120,2.0,Poland,0,2,0,0,6
+Michel Vorm,Tottenham,33,GK,4,4.0,252,17,2.0,Netherlands,0,17,0,1,5
+Josh Sims,Southampton,20,RW,1,0.5,126,12,1.0,England,0,14,0,0,1
+Santi Cazorla,Arsenal,32,CM,2,12.0,943,38,2.0,Spain,0,1,0,1,5
+Jermain Defoe,Bournemouth,34,CF,1,5.0,3213,166,1.0,England,0,2,0,0,6
+Sean Scannell,Huddersfield,26,RW,1,0.5,85,0,2.0,Ireland,0,8,0,0,3
+Fernando,Manchester+City,32,DM,2,18.0,338,18,3.0,Brazil,0,11,0,1,5
+Kyle Walker,Manchester+City,27,RB,3,30.0,1008,142,1.0,England,0,11,0,1,3
+Paul Pogba,Manchester+United,24,CM,2,75.0,7435,115,2.0,France,0,12,1,1,2
+Siem de Jong,Newcastle+United,28,AM,1,5.5,341,0,2.0,Netherlands,0,13,0,0,4
+Josh Tymon,Stoke+City,18,LB,3,1.0,120,9,1.0,England,0,15,0,0,1
+Jan Bednarek,Southampton,21,CB,3,0.5,9,0,2.0,Poland,1,14,0,0,1
+Cheikhou Kouyate,West+Ham,27,DM,2,12.0,284,79,4.0,Senegal,0,20,0,0,3
+Joel Castro Pereira,Manchester+United,21,GK,4,0.1,395,6,2.0,Portugal,0,12,0,1,1
+Michael Carrick,Manchester+United,35,DM,2,1.5,1789,42,1.0,England,0,12,0,1,6
+Ryan Fraser,Bournemouth,23,LW,1,5.0,516,100,2.0,Scotland,0,2,0,0,2
+James McClean,West+Brom,28,LW,1,3.0,454,52,2.0,Ireland,0,19,0,0,4
+Kieran Gibbs,Arsenal,27,LB,3,10.0,489,45,1.0,England,0,1,0,1,3
+Boaz Myhill,West+Brom,34,GK,4,1.5,100,0,2.0,Wales,0,19,0,0,6
+Markus Suttner,Brighton+and+Hove,30,LB,3,2.0,23,0,2.0,Austria,0,3,0,0,4
+Christian Fuchs,Leicester+City,31,LB,3,6.0,417,104,2.0,Austria,0,9,0,0,4
+Kevin De Bruyne,Manchester+City,26,AM,1,65.0,2252,199,2.0,Belgium,0,11,0,1,3
+Jose Fonte,West+Ham,33,CB,3,7.0,867,98,2.0,Portugal,0,20,1,0,5
+Maarten Stekelenburg,Everton,34,GK,4,2.0,623,68,2.0,Netherlands,0,7,1,0,6
+Patrick van Aanholt,Crystal+Palace,26,LB,3,9.0,524,98,2.0,Netherlands,0,6,0,0,3
+Leroy Fer,Swansea,27,CM,2,8.0,411,95,2.0,Netherlands,0,16,1,0,3
+Brad Smith,Bournemouth,23,LB,3,2.0,297,4,4.0,Australia,0,2,0,0,2
+Oriol Romeu,Southampton,25,DM,2,10.0,476,80,2.0,Spain,0,14,0,0,3
+Joel Coleman,Huddersfield,21,GK,4,0.25,36,0,1.0,England,0,8,0,0,1
+Marouane Fellaini,Manchester+United,29,CM,2,12.0,1498,48,2.0,Belgium,0,12,0,1,4
+Grant Hanley,Newcastle+United,25,CB,3,4.5,265,0,2.0,Scotland,0,13,0,0,3
+Dominic Solanke,Liverpool,19,CF,1,2.0,671,0,1.0,England,0,10,0,1,1
+Cuco Martina,Everton,27,RB,3,2.0,232,31,2.0,Curacao,0,7,0,0,3
+David Ospina,Arsenal,28,GK,4,7.0,544,2,3.0,Colombia,0,1,0,1,4
+Shane Duffy,Brighton+and+Hove,25,CB,3,5.0,243,0,2.0,Ireland,0,3,0,0,3
+Martin Cranie,Huddersfield,30,CB,3,0.5,67,0,1.0,England,0,8,0,0,4
+Claudio Bravo,Manchester+City,34,GK,4,8.0,436,73,3.0,Chile,0,11,1,1,6
+Marcos Alonso Mendoza,Chelsea,26,LB,3,25.0,3069,177,2.0,Spain,0,5,1,1,3
+James Tarkowski,Burnley,24,CB,3,2.0,116,23,1.0,England,0,4,0,0,2
+Manuel Lanzini,West+Ham,24,AM,1,15.0,493,133,3.0,Argentina,0,20,0,0,2
+Scott Dann,Crystal+Palace,30,CB,3,5.0,217,61,1.0,England,0,6,0,0,4
+Ciaran Clark,Newcastle+United,27,CB,3,5.0,273,0,2.0,Ireland,0,13,0,0,3
+Mesut Ozil,Arsenal,28,AM,1,50.0,4395,167,2.0,Germany,0,1,0,1,4
+Jonjoe Kenny,Everton,20,RB,3,0.25,53,1,1.0,England,0,7,0,0,1
+Mohamed Diame,Newcastle+United,30,CM,2,6.0,339,0,4.0,Senegal,0,13,0,0,4
+Jordan Ayew,Swansea,25,CF,1,7.5,676,39,4.0,Ghana,0,16,0,0,3
+Kevin Long,Burnley,26,CB,3,0.5,68,3,2.0,Ireland,0,4,0,0,3
+Philip Billing,Huddersfield,21,CM,2,0.5,157,0,2.0,Denmark,0,8,0,0,1
+Leon Britton,Swansea,34,CM,2,1.0,218,32,1.0,England,0,16,0,0,6
+Leroy Sane,Manchester+City,21,LW,1,35.0,2302,105,2.0,Germany,0,11,1,1,1
+N%27Golo Kante,Chelsea,26,DM,2,50.0,4042,83,2.0,France,0,5,1,1,3
+Craig Dawson,West+Brom,27,RB,3,6.0,215,102,1.0,England,0,19,0,0,3
+Nathan Redmond,Southampton,23,RW,1,15.0,706,126,1.0,England,0,14,1,0,2
+Charlie Adam,Stoke+City,31,CM,2,3.5,561,59,2.0,Scotland,0,15,0,0,4
+Sandro Ramirez,Everton,22,CF,1,10.0,373,0,2.0,Spain,1,7,0,0,2
+Nacho Monreal,Arsenal,31,LB,3,13.0,555,115,2.0,Spain,0,1,0,1,4
+Bakary Sako,Crystal+Palace,29,LW,1,6.0,226,7,4.0,Mali,0,6,0,0,4
+Thibaut Courtois,Chelsea,25,GK,4,40.0,1260,141,2.0,Belgium,0,5,0,1,3
+James Collins,West+Ham,33,CB,3,2.0,187,69,2.0,Wales,0,20,0,0,5
+Fabian Delph,Manchester+City,27,CM,2,8.0,520,13,1.0,England,0,11,0,1,3
+Phil Bardsley,Stoke+City,32,RB,3,1.5,365,27,2.0,Scotland,0,15,0,0,5
+Riyad Mahrez,Leicester+City,26,RW,1,30.0,1753,120,4.0,Algeria,0,9,0,0,3
+Andros Townsend,Crystal+Palace,26,RW,1,12.0,693,116,1.0,England,0,6,1,0,3
+John Stones,Manchester+City,23,CB,3,35.0,1078,59,1.0,England,0,11,1,1,2
+Emiliano Martinez,Arsenal,24,GK,4,1.0,372,8,3.0,Argentina,0,1,0,1,2
+Stephen Ward,Burnley,31,LB,3,1.5,152,91,2.0,Ireland,0,4,0,0,4
+Joshua King,Bournemouth,25,SS,1,8.0,997,178,2.0,Norway,0,2,0,0,3
+Nathan Ake,Bournemouth,22,CB,3,8.0,1274,55,2.0,Netherlands,0,2,0,0,2
+Simon Mignolet,Liverpool,29,GK,4,12.0,721,110,2.0,Belgium,0,10,0,1,4
+Pape Souare,Crystal+Palace,27,LB,3,6.0,186,6,4.0,Senegal,0,6,0,0,3
+Sofiane Boufal,Southampton,23,AM,1,15.0,590,40,4.0,Morocco,0,14,1,0,2
+Morgan Schneiderlin,Everton,27,DM,2,22.0,1272,37,2.0,France,0,7,1,0,3
+Rob Holding,Arsenal,21,CB,3,7.0,666,32,1.0,England,0,1,1,1,1
+Andy Williams,Huddersfield,26,CB,3,0.65,3,0,3.0,Trinidad and Tobago,0,8,0,0,3
+Erik Pieters,Stoke+City,28,LB,3,7.0,134,103,2.0,Netherlands,0,15,0,0,4
+Harry Kane,Tottenham,23,CF,1,60.0,4161,224,1.0,England,0,17,0,1,2
+Olivier Giroud,Arsenal,30,CF,1,22.0,2230,116,2.0,France,0,1,0,1,4
+Adam Lallana,Liverpool,29,AM,1,25.0,1808,139,1.0,England,0,10,0,1,4
+Jonathan Hogg,Huddersfield,28,CM,2,1.0,75,0,1.0,England,0,8,0,0,4
+Jason Puncheon,Crystal+Palace,31,AM,1,5.5,427,92,1.0,England,0,6,0,0,4
+Petr Cech,Arsenal,35,GK,4,7.0,1529,134,2.0,Czech Republic,0,1,0,1,6
+Victor Moses,Chelsea,26,RM,2,18.0,2537,105,4.0,Nigeria,0,5,0,1,3
+Sam Field,West+Brom,19,CM,2,0.25,15,9,1.0,England,0,19,0,0,1
+Ben Mee,Burnley,27,CB,3,6.0,166,94,1.0,England,0,4,0,0,3
+Heurelho Gomes,Watford,36,GK,4,1.0,439,113,3.0,Brazil,0,18,0,0,6
+Ryan Bertrand,Southampton,27,LB,3,20.0,578,123,1.0,England,0,14,0,0,3
+Wayne Hennessey,Crystal+Palace,30,GK,4,4.0,242,92,2.0,Wales,0,6,0,0,4
+Joe Lolley,Huddersfield,24,RW,1,0.25,63,0,1.0,England,0,8,0,0,2
+YounÃ¨s Kaboul,Watford,31,CB,3,2.5,263,57,2.0,France,0,18,1,0,4
+Asmir Begovic,Bournemouth,30,GK,4,8.0,697,2,2.0,Bosnia,0,2,0,0,4
+Glenn Whelan,Stoke+City,33,DM,2,2.5,182,62,2.0,Ireland,0,15,0,0,5
+Dejan Lovren,Liverpool,28,CB,3,17.0,708,106,2.0,Croatia,0,10,0,1,4
+Steve Sidwell,Brighton+and+Hove,34,CM,2,1.0,461,0,1.0,England,0,3,0,0,6
+Laurent Depoitre,Huddersfield,28,CF,1,3.0,212,0,2.0,Belgium,0,8,0,0,4
+Ben Chilwell,Leicester+City,20,LB,3,2.5,288,19,1.0,England,0,9,0,0,1
+Federico Fernandez,Swansea,28,CB,3,9.0,116,63,3.0,Argentina,0,16,0,0,4
+Ashley Fletcher,West+Ham,21,CF,1,1.0,412,16,1.0,England,0,20,1,0,1
+Roque Mesa,Swansea,28,CM,2,12.0,110,0,2.0,Spain,1,16,0,0,4
+Miguel Britos,Watford,32,CB,3,3.5,131,71,3.0,Uruguay,0,18,0,0,5
+Ruben Loftus-Cheek,Crystal+Palace,21,CM,2,5.0,685,6,1.0,England,0,6,0,0,1
+Scott Malone,Huddersfield,26,LB,3,0.75,81,0,1.0,England,0,8,0,0,3
+Alberto Moreno,Liverpool,25,LB,3,10.0,397,8,2.0,Spain,0,10,0,1,3
+Vicente Iborra,Leicester+City,29,DM,2,9.0,253,0,2.0,Spain,1,9,0,0,4
+Henrikh Mkhitaryan,Manchester+United,28,AM,1,35.0,3312,73,4.0,Armenia,0,12,1,1,4
+Jesus Gamez,Newcastle+United,32,RB,3,2.5,186,0,2.0,Spain,0,13,0,0,5
+Callum Wilson,Bournemouth,25,CF,1,10.0,337,63,1.0,England,0,2,0,0,3
+Michy Batshuayi,Chelsea,23,CF,1,25.0,1162,48,2.0,Belgium,0,5,1,1,2
+Mame Biram Diouf,Stoke+City,29,CF,1,7.0,310,51,4.0,Senegal,0,15,0,0,4
+Lascelles,Newcastle+United,27,CB,3,5.0,400,0,1.0,England,0,13,0,0,3
+Robbie Brady,Burnley,25,LM,2,10.0,614,39,2.0,Ireland,0,4,0,0,3
+Nacer Chadli,West+Brom,27,LW,1,15.0,570,110,2.0,Belgium,0,19,1,0,3
+Anthony Knockaert,Brighton+and+Hove,25,RW,1,8.0,726,0,2.0,France,0,3,0,0,3
+Son Heung-min,Tottenham,25,LW,1,30.0,2185,174,4.0,South Korea,0,17,0,1,3
+Alex Iwobi,Arsenal,21,LW,1,10.0,1812,89,4.0,Nigeria,0,1,0,1,1
+Nathaniel Clyne,Liverpool,26,RB,3,21.0,602,129,1.0,England,0,10,0,1,3
+Jack Cork,Burnley,28,DM,2,5.0,204,50,1.0,England,0,4,0,0,4
+Stephen Kingsley,Swansea,22,LB,3,0.75,168,29,2.0,Scotland,0,16,0,0,2
+Massadio Haidara,Newcastle+United,24,LB,3,1.5,114,0,2.0,France,0,13,0,0,2
+Martin Olsson,Swansea,29,LB,3,5.0,458,52,2.0,Sweden,0,16,0,0,4
+Sam Vokes,Burnley,27,CF,1,4.5,290,121,2.0,Wales,0,4,0,0,3
+Gareth McAuley,West+Brom,37,CB,3,1.0,458,131,2.0,Northern Ireland,0,19,0,0,6
+Eden Hazard,Chelsea,26,LW,1,75.0,4220,224,2.0,Belgium,0,5,0,1,3
+Virgil van Dijk,Southampton,26,CB,3,30.0,1102,75,2.0,Netherlands,0,14,0,0,3
+Aaron Cresswell,West+Ham,27,LB,3,12.0,380,60,1.0,England,0,20,0,0,3
+Simon Francis,Bournemouth,32,RB,3,2.5,167,89,1.0,England,0,2,0,0,5
+Marcos Rojo,Manchester+United,27,CB,3,18.0,1063,77,3.0,Argentina,0,12,0,1,3
+Niki Maenpaa,Brighton+and+Hove,32,GK,4,0.25,103,0,2.0,Finland,0,3,0,0,5
+James Tomkins,Crystal+Palace,28,CB,3,7.0,208,75,1.0,England,0,6,1,0,4
+Ademola Lookman,Everton,19,LW,1,5.0,1387,16,1.0,England,0,7,0,0,1
+Nordin Amrabat,Watford,30,LW,1,4.5,295,65,4.0,Morocco,0,18,0,0,4
+Marcus Rashford,Manchester+United,19,CF,1,18.0,3668,76,1.0,England,0,12,0,1,1
+Kevin Wimmer,Tottenham,24,CB,3,7.0,355,2,2.0,Austria,0,17,0,1,2
+Matt Targett,Southampton,21,LB,3,3.0,110,12,1.0,England,0,14,0,0,1
+Edimilson Fernandes,West+Ham,21,CM,2,5.0,288,38,2.0,Switzerland,0,20,1,0,1
+Saido Berahino,Stoke+City,23,CF,1,15.0,841,26,1.0,England,0,15,0,0,2
+Vincent Janssen,Tottenham,23,CF,1,13.0,1135,55,2.0,Netherlands,0,17,1,1,2
+Xherdan Shaqiri,Stoke+City,25,RW,1,15.0,1000,80,2.0,Switzerland,0,15,0,0,3
+Lucas Leiva,Liverpool,30,DM,2,7.0,998,47,3.0,Brazil,0,10,0,1,4
+Danny Welbeck,Arsenal,26,CF,1,15.0,1521,37,1.0,England,0,1,0,1,3
+Mason Holgate,Everton,20,CB,3,5.0,344,54,1.0,England,0,7,0,0,1
+James Morrison,West+Brom,31,CM,2,5.0,238,84,2.0,Scotland,0,19,0,0,4
+Jonathan Leko,West+Brom,18,RW,1,1.5,169,12,1.0,England,0,19,0,0,1
+Danny Drinkwater,Leicester+City,27,CM,2,9.0,714,69,1.0,England,0,9,0,0,3
+Winston Reid,West+Ham,29,CB,3,10.0,338,102,4.0,New Zealand,0,20,0,0,4
+Nampalys Mendy,Leicester+City,25,DM,2,10.0,325,6,2.0,France,0,9,1,0,3
+Steve Cook,Bournemouth,26,CB,3,5.0,184,112,1.0,England,0,2,0,0,3
+Gabriel Jesus,Manchester+City,20,CF,1,30.0,4254,67,3.0,Brazil,0,11,1,1,1
+Jonas Lossl,Huddersfield,28,GK,4,1.5,56,0,2.0,Denmark,0,8,0,0,4
+Harry Maguire,Leicester+City,24,CB,3,8.0,488,71,1.0,England,0,9,0,0,2
+Juan Mata,Manchester+United,29,AM,1,30.0,2280,102,2.0,Spain,0,12,0,1,4
+Eric Dier,Tottenham,23,DM,2,25.0,1239,93,1.0,England,0,17,0,1,2
+Ibrahim Afellay,Stoke+City,31,LM,2,3.0,461,15,2.0,Netherlands,0,15,0,0,4
+Hector Bellerin,Arsenal,22,RB,3,30.0,1675,119,2.0,Spain,0,1,0,1,2
+Christopher Schindler,Huddersfield,27,CB,3,2.0,73,0,2.0,Germany,0,8,0,0,3
+Yannick Bolasie,Everton,28,LW,1,20.0,896,45,4.0,Congo DR,0,7,1,0,4
+Matteo Darmian,Manchester+United,27,RB,3,12.0,1640,70,2.0,Italy,0,12,0,1,3
+Ã‰tienne Capoue,Watford,29,DM,2,9.0,412,131,2.0,France,0,18,0,0,4
+Ashley Williams,Everton,32,CB,3,8.0,599,127,2.0,Wales,0,7,1,0,5
+Geoff Cameron,Stoke+City,32,CB,3,3.0,260,58,4.0,United States,0,15,0,0,5
+Davy Klaassen,Everton,24,AM,1,18.0,428,0,2.0,Netherlands,1,7,0,0,2
+Andre Gray,Burnley,26,CF,1,10.0,687,108,1.0,England,0,4,0,0,3
+Kieran Trippier,Tottenham,26,RB,3,10.0,525,51,1.0,England,0,17,0,1,3
+Gaetan Bong,Brighton+and+Hove,29,LB,3,1.5,97,0,4.0,Cameroon,0,3,0,0,4
+Lucas Perez,Arsenal,28,CF,1,15.0,2055,20,2.0,Spain,0,1,1,1,4
+Dwight Gayle,Newcastle+United,26,CF,1,10.0,1351,0,1.0,England,0,13,0,0,3
+Luka Milivojevic,Crystal+Palace,26,DM,2,10.0,407,42,2.0,Serbia,0,6,0,0,3

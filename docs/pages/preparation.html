@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+            name="description"
+            content="Fall 2021 - Harvard University, Institute for Applied Computational Science. "
+    />
+    <meta name="author" content="Pavlos Protopapas"/>
+
+    <!-- Bootstrap CSS -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+            integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+            crossorigin="anonymous"
+    />
+
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+            crossorigin="anonymous"
+    />
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+            rel="stylesheet"
+    />
+
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+            rel="stylesheet"
+            href="../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="../style/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="../style/css/iacs.css"/>
+
+    <title>Harvard CS109A | Preparation</title>
+
+    <style>
+        .navbar {
+            background-color: #c90016
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand" href="..">
+            <img
+                    class="navbar-brand-logo"
+                    src="../style/images/logo.png"
+            />
+            <h3 class="course-title">CS109A</h3>
+        </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarsDefault"
+                aria-controls="navbarsDefault"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/syllabus.html">Syllabus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/materials.html">Materials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/preparation.html">Preparation</a>
+                </li>
+                <form
+                        class="form-inline my-2"
+                        action="../search.html"
+                        onsubmit="return validateForm(this.elements['q'].value);"
+                >
+                    <div class="input-group input-group-sm">
+                        <input
+                                class="form-control"
+                                type="text"
+                                name="q"
+                                placeholder="Search Topic"
+                        />
+                        <div class="input-group-append">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </ul>
+        </div>
+        <!-- .collapse navbar-collapse -->
+    </div>
+    <!-- .container -->
+</nav>
+<main id="content" class="container">
+    <h1>Preparation</h1>
+    <br/>
+    <hr/>
+    <p>In order to get the most out of CS109A, knowledge of multivariate calculus, probability theory, statistics, and
+        some basic linear algebra (e.g., matrix operations, eigenvectors, etc.) is suggested.  Below are some resources
+        for self-assessment and review:</p>
+    <ul>
+        <li>
+            <p><a href="https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/exams/">Multivariate
+                Calculus</a>: multiple exams /w solutions</p>
+        </li>
+        <li>
+            <p>Linear Algebra: multiple exams /w solutions <a
+                    href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/exams/">1</a>, <a
+                    href="http://abacus.bates.edu/~etowne/205exams.htm">2</a></p>
+        </li>
+        <li>
+            <p>Probability: <a
+                    href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/exams/">exams
+                with solutions</a> and <a
+                    href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/exams/">problem
+                sets with solutions</a></p>
+        </li>
+        <li>
+            <p>Statistics: multiple pairs of exam questions and answers <a
+                    href="http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/EXQ_EX.3.2009.Spring.pdf">Q1</a>, <a
+                    href="http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/EXS_EX.3.2009.Spring.pdf">A1</a>, <a
+                    href="http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/EXQ_EX.3.2008.Fall.pdf">Q2</a>, <a
+                    href="http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/EXS_EX.3.2008.Fall.pdf">A2</a>, <a
+                    href="http://www.utsc.utoronto.ca/~butler/b22/f2011-q.pdf">Q3</a>, <a
+                    href="http://www.utsc.utoronto.ca/~butler/b22/f2011.pdf">A3</a></p>
+        </li>
+    </ul>
+    <p>Here is a useful textbook for reviewing many of the above topics: <a href="https://mml-book.github.io/">Mathematics
+        for Machine Learning</a></p>
+    <p>Note: you can be successful in the course (assignments, quizzes, etc.) with the listed pre-requisites, but some
+        of the material presented in lectures may be more easily understood with more background.</p>
+    <p>This course dives right into core Machine Learning topics. For this, students are expected to be fluent in Python
+        programming. You can familiarize yourself with Python by completing online tutorials. Additionally, there are
+        free Basics Python courses that cover all necessary python topics. You are also expected to be able to
+        manipulate data using pandas DataFrames, perform basic operations with numpy arrays, and make use of basic
+        plotting functions (e.g. line chart, histogram, scatter plot, bar chart) from matplotlib.</p>
+    <h2>Python basics</h2>
+    <p>Throughout this course, we will be using Python as our primary programming language for exercises, labs, and
+        homework. Thus, you must have basic Python programming knowledge. The following are the topics you need to cross
+        off your checklist before the course begins:</p>
+    <p>Variables, Datatypes, strings, file operations, Data structures such as lists, dictionaries, tuples and
+        classes.</p>
+    <h2>Pandas Basics</h2>
+    <p>Most of the exercises you will encounter in this course exploit various datasets. Pandas is an open-source data
+        analysis and manipulation tool, built on top of Python. In this course, we have provided the necessary support
+        material and resources to work with Pandas. However, it is highly recommended that you get yourselves familiar
+        with basic data manipulation using Pandas to ensure a smooth learning experience.</p>
+    <h2>Numpy Basics</h2>
+    <p>NumPy is a library for the Python programming language that provides support for large, multi-dimensional arrays
+        and matrices and a large collection of high-level mathematical functions to operate on these data structures.
+        Because of the extensive exercises provided in this course, it is important to use Numpy for efficient
+        problem-solving to get identical results. Though this course aims to support individuals with no prior Numpy
+        knowledge, you must go through the basics of this library to avoid any possible hiccups.</p>
+    <h2>Matplotlib Basics</h2>
+    <p>A large portion of this course uses different graphs and charts to explain topics and validate results.
+        Matplotlib is a plotting library for Python. This library has been used to create all the graphs you will see
+        throughout the course. Additionally, the exercises and homeworks are structured in a manner that integrates this
+        library. Henceforth, it is highly recommended to get yourselves acquainted with Matplotlib Basics.</p>
+    <p>For this course, we will be using Jupyter Notebooks. You can familiarize yourself with Jupyter notebooks by
+        reading the following tutorials:</p>
+    <p><a href="https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a">A Beginner’s
+        Tutorial to Jupyter Notebooks</a></p>
+    <p>Finally, we assume that students have a strong foundation in calculus, linear algebra, statistics, and
+        probability. You should review these concepts before the course begins. Here is one useful resource:</p>
+    <p><a href="https://mml-book.github.io/">Mathematics for Machine Learning</a></p>
+</main>
+
+<footer class="footer">
+    <div class="container">
+    <span class="text-muted">Copyright 2021 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+    </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>

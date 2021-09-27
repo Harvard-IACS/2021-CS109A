@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+            name="description"
+            content="Fall 2021 - Harvard University, Institute for Applied Computational Science. "
+    />
+    <meta name="author" content="Pavlos Protopapas"/>
+
+    <!-- Bootstrap CSS -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+            integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+            crossorigin="anonymous"
+    />
+
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+            integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+            crossorigin="anonymous"
+    />
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+            rel="stylesheet"
+    />
+
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+            rel="stylesheet"
+            href="../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="../style/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="../style/css/iacs.css"/>
+
+    <title>Harvard CS109A | Schedule</title>
+
+    <style>
+        .navbar {
+            background-color: #c90016
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand" href="..">
+            <img
+                    class="navbar-brand-logo"
+                    src="../style/images/logo.png"
+            />
+            <h3 class="course-title">CS109A</h3>
+        </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarsDefault"
+                aria-controls="navbarsDefault"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/syllabus.html">Syllabus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/materials.html">Materials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/preparation.html">Preparation</a>
+                </li>
+                <form
+                        class="form-inline my-2"
+                        action="../search.html"
+                        onsubmit="return validateForm(this.elements['q'].value);"
+                >
+                    <div class="input-group input-group-sm">
+                        <input
+                                class="form-control"
+                                type="text"
+                                name="q"
+                                placeholder="Search Topic"
+                        />
+                        <div class="input-group-append">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </ul>
+        </div>
+        <!-- .collapse navbar-collapse -->
+    </div>
+    <!-- .container -->
+</nav>
+<main id="content" class="container">
+    <h1>Schedule</h1>
+    <br/>
+    <hr/>
+    <table>
+        <thead>
+        <tr>
+            <th>Date (Mon)</th>
+            <th>Lecture (Mon)</th>
+            <th>Lecture (Wed)</th>
+            <th>Lab (Fri)</th>
+            <th>Advanced Section (Wed)</th>
+            <th>Assignment (R:Released Wed - D:Due Wed)</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>30-Aug</td>
+            <td>No Lecture</td>
+            <td><a href="../lectures/lecture01/">Lecture 1: Introduction to CS109A</a></td>
+            <td>Lab 1: Data - formats| sources| &amp; scraping</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6-Sep</td>
+            <td>No Lecture (Labor Day)</td>
+            <td><a href="../lectures/lecture02/">Lecture 2: Introduction to PANDAS and EDA</a></td>
+            <td>Lab 2: Pandas &amp; EDA 2</td>
+            <td></td>
+            <td>R:HW1 - D:HW0</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>13-Sep</td>
+            <td><a href="../lectures/lecture03/">Lecture 3: Introduction to Regression kNN and Linear Regression</a>
+            </td>
+            <td><a href="../lectures/lecture04/">Lecture 4: Multi-linear and Polynomial Regression</a></td>
+            <td>Lab 3:</td>
+            <td></td>
+            <td>R:HW2 - D:HW1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>20-Sep</td>
+            <td><a href="../lectures/lecture05/">Lecture 5: Model Selection and Cross Validation</a></td>
+            <td>Lecture 6: Regularization - Ridge and Lasso Regression</td>
+            <td>Lab 4:</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>27-Sep</td>
+            <td>Lecture 7: Probability in Regression/ MLE</td>
+            <td>Lecture 8: Inference in Regression: Bootstrap &amp; CI Hypothesis Testing &amp; Predictive CI</td>
+            <td>Lab 5: Estimation of Regulariztion Coeffs /w CV</td>
+            <td>Advanced Section 1: Linear Algebra Primer</td>
+            <td>R:HW3 - D:HW2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>4-Oct</td>
+            <td>Lecture 9: Missing Data &amp; Imputation</td>
+            <td>Lecture 10: PCA</td>
+            <td>Lab 6:</td>
+            <td>Advanced Section 2: Hypothesis Testing</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11-Oct</td>
+            <td>No Lecture (Indigenous Peoples' Day)</td>
+            <td>Lecture 11: Case Study</td>
+            <td>Midterm</td>
+            <td>Advanced Section 3: Math Foundations of PCA</td>
+            <td>D: HW3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>18-Oct</td>
+            <td>Lecture 12: Visualization</td>
+            <td>Lecture 13: Ethics</td>
+            <td>Lab 7:</td>
+            <td></td>
+            <td>R:HW4</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>25-Oct</td>
+            <td>Lecture 14: Logistic Regression 1</td>
+            <td>Lecture 15: Logistic Regression 2</td>
+            <td>Lab 8:</td>
+            <td>Advanced Section 4: GLM</td>
+            <td>R:HW5 - D:HW6</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1-Nov</td>
+            <td>Lecture 16: Decision Tree</td>
+            <td>Lecture 17: Bagging</td>
+            <td>Lab 9:</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8-Nov</td>
+            <td>Lecture 18: Random Forest</td>
+            <td>Lecture 19: Boosting</td>
+            <td>Lab 10:</td>
+            <td>Advanced Section 5: Stacking &amp; Mixture of Experts</td>
+            <td>R:HW6 - D:HW5</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>15-Nov</td>
+            <td>Lecture 20: Model Interpretability</td>
+            <td>Lecture 21: Experimental Design</td>
+            <td>Lab 11:</td>
+            <td>Advanced Section 6: Bandits (tentative)</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>22-Nov</td>
+            <td>Lecture 22: NLP 1</td>
+            <td>No Lecture</td>
+            <td>No Lab</td>
+            <td></td>
+            <td>R:HW7 - D:HW6</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>29-Nov</td>
+            <td>Lecture 23: NLP 2</td>
+            <td>Lecture 24: Final Review</td>
+            <td></td>
+            <td></td>
+            <td>D:HW7</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6-Dec</td>
+            <td></td>
+            <td></td>
+            <td>Project Submission Deadline</td>
+            <td>Reading Period</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>13-Dec</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Finals Week</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>20-Dec</td>
+            <td>Projects: Final Showcase</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer class="footer">
+    <div class="container">
+    <span class="text-muted">Copyright 2021 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+    </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
