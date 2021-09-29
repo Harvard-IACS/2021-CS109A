@@ -40,7 +40,6 @@ div.exercise-r {
 span.sub-q {
     font-weight: bold;
 }
-
 div.theme {
     background-color: #63ACBE;
     border-color: #E9967A;
@@ -48,7 +47,6 @@ div.theme {
     padding: 0.5em;
     font-size: 18pt;
 }
-
 div.gc {
     background-color: #AEDE94;
     border-color: #E9967A;
@@ -56,7 +54,6 @@ div.gc {
     padding: 0.5em;
     font-size: 12pt;
 }
-
 p.q1 {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -65,7 +62,6 @@ p.q1 {
     background-color: #EEEEEE;
     color: black;
 }
-
 header {
     padding-top: 35px;
     padding-bottom: 35px;
