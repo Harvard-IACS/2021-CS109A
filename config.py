@@ -91,7 +91,7 @@ from pelican_jupyter import markup as nb_markup
 
 PLUGINS = [nb_markup, 'tipue_search']
 
-IPYNB_EXPORT_TEMPLATE = 'themes/templates/nbconvert/lab/base.html.j2'
+IPYNB_EXPORT_TEMPLATE = 'themes/templates/nbconvert/lab/index.html.j2'
 
 IGNORE_FILES = ['.#*', '.ipynb_checkpoints', 'README.md', "*.html", "__pycache__", "*.pdf", "*.pptx", ".placeholder",
                 ".DS_Store", "*.ipynb-meta", "*.csv", "*.json", "*.txt", "*.xmls"]
