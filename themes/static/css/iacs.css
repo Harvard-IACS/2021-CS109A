@@ -1,24 +1,44 @@
 body {
-  font-family: "Roboto", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
-img {
-  width: 100%;
+main img {
+    width: 70%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+blockquote {
+    background: #f5f5f5;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 5px solid #8e8e8a;
 }
 
 #content {
-  margin-top: 60px;
-  margin-bottom: 10vh;
-  min-height: 95vh;
+    margin-top: 60px;
+    margin-bottom: 10vh;
+    min-height: 95vh;
+}
+
+.highlight {
+    border-radius: 4px;
+    background: #fdf6e3;
+    padding: 0px 8px 0px 8px;
 }
 
 .navbar {
-  background-color: #a51c30;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+    background-color: #a51c30;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
 }
 
 .navbar .navbar-brand {
-  display: flex;
+    display: flex;
 }
 
 .navbar-brand .navbar-brand-logo {
