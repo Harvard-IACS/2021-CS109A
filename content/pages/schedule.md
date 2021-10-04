@@ -1,6 +1,6 @@
 Title: Schedule
 Slug: schedule
-Date: 2021-09-29
+Date: 2021-10-04
 
 
 |Date (Mon)|Lecture (Mon)|Lecture (Wed)|Lab (Fri)|Advanced Section (Wed)|Assignment (R:Released Wed - D:Due Wed)||
@@ -9,7 +9,7 @@ Date: 2021-09-29
 |6-Sep|No Lecture (Labor Day)|[Lecture 2: Introduction to PANDAS and EDA]({filename}/lectures/lecture02/index.md)|Lab 2: Pandas & EDA 2||R:HW1 - D:HW0||
 |13-Sep|[Lecture 3: Introduction to Regression kNN and Linear Regression]({filename}/lectures/lecture03/index.md)|[Lecture 4: Multi-linear and Polynomial Regression]({filename}/lectures/lecture04/index.md)|Lab 3:||R:HW2 - D:HW1||
 |20-Sep|[Lecture 5: Model Selection and Cross Validation]({filename}/lectures/lecture05/index.md)|[Lecture 6: Regularization Ridge and Lasso Regression]({filename}/lectures/lecture06/index.md)|Lab 4:||||
-|27-Sep|Lecture 7: Probability in Regression/ MLE |Lecture 8: Inference in Regression: Bootstrap & CI Hypothesis Testing & Predictive CI|Lab 5: Estimation of Regulariztion Coeffs /w CV|Advanced Section 1: Linear Algebra Primer|R:HW3 - D:HW2||
+|27-Sep|[Lecture 7: Probability]({filename}/lectures/lecture07/index.md)|[Lecture 8: Inference in Regression and Hypothesis Testing]({filename}/lectures/lecture08/index.md)|Lab 5: Estimation of Regulariztion Coeffs /w CV|Advanced Section 1: Linear Algebra Primer|R:HW3 - D:HW2||
 |4-Oct|Lecture 9: Missing Data & Imputation|Lecture 10: PCA|Lab 6:|Advanced Section 2: Hypothesis Testing|||
 |11-Oct|No Lecture (Indigenous Peoples' Day)|Lecture 11: Case Study|Midterm|Advanced Section 3: Math Foundations of PCA|D: HW3||
 |18-Oct|Lecture 12: Visualization|Lecture 13: Ethics|Lab 7:||R:HW4||

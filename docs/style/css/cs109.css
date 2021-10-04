@@ -1,0 +1,85 @@
+<
+style >
+blockquote {
+    background: #AEDE94;
+}
+
+h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #63ACBE;
+    color: black;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #EEEEEE;
+    color: black;
+}
+
+div.exercise {
+    background-color: #f8b4ab;
+    border-color: #E9967A;
+    border-left: 5px solid #601A4A;
+    padding: 0.5em;
+}
+
+div.exercise-r {
+    background-color: #ffd0d0;
+    border-color: #E9967A;
+    border-left: 5px solid #601A4A;
+    padding: 0.5em;
+}
+
+
+span.sub-q {
+    font-weight: bold;
+}
+
+div.theme {
+    background-color: #63ACBE;
+    border-color: #E9967A;
+    border-left: 5px solid #601A4A;
+    padding: 0.5em;
+    font-size: 18pt;
+}
+
+div.gc {
+    background-color: #AEDE94;
+    border-color: #E9967A;
+    border-left: 5px solid #601A4A;
+    padding: 0.5em;
+    font-size: 12pt;
+}
+
+p.q1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 5px;
+    background-color: #EEEEEE;
+    color: black;
+}
+
+header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #DDDDDD;
+    color: black;
+}
+
+span.emph {
+    color: #601A4A;
+    font-weight: bold;
+}
+
+<
+/
+style >
