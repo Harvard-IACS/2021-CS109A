@@ -17,50 +17,42 @@ var tipuesearch_stop_words = ["a", "above", "after", "again", "against", "all", 
 
 // Word replace
 
-var tipuesearch_replace = {
-    'words': [
-        {'word': 'tip', 'replace_with': 'tipue'},
-        {'word': 'javscript', 'replace_with': 'javascript'},
-        {'word': 'jqeury', 'replace_with': 'jquery'}
-    ]
-};
+var tipuesearch_replace = {'words': [
+     {'word': 'tip', 'replace_with': 'tipue'},
+     {'word': 'javscript', 'replace_with': 'javascript'},
+     {'word': 'jqeury', 'replace_with': 'jquery'}
+]};
 
 
 // Weighting
 
-var tipuesearch_weight = {
-    'weight': [
-        {'url': 'http://www.tipue.com', 'score': 60},
-        {'url': 'http://www.tipue.com/search', 'score': 60},
-        {'url': 'http://www.tipue.com/tipr', 'score': 30},
-        {'url': 'http://www.tipue.com/support', 'score': 20}
-    ]
-};
+var tipuesearch_weight = {'weight': [
+     {'url': 'http://www.tipue.com', 'score': 60},
+     {'url': 'http://www.tipue.com/search', 'score': 60},
+     {'url': 'http://www.tipue.com/tipr', 'score': 30},
+     {'url': 'http://www.tipue.com/support', 'score': 20}
+]};
 
 
 // Illogical stemming
 
-var tipuesearch_stem = {
-    'words': [
-        {'word': 'e-mail', 'stem': 'email'},
-        {'word': 'javascript', 'stem': 'jquery'},
-        {'word': 'javascript', 'stem': 'js'}
-    ]
-};
+var tipuesearch_stem = {'words': [
+     {'word': 'e-mail', 'stem': 'email'},
+     {'word': 'javascript', 'stem': 'jquery'},
+     {'word': 'javascript', 'stem': 'js'}
+]};
 
 
 // Related
 
-var tipuesearch_related = {
-    'Related': [
-        {'search': 'tipue', 'related': 'Search', 'include': 1},
-        {'search': 'tipue', 'related': 'jQuery'},
-        {'search': 'tipue', 'related': 'Features'},
-        {'search': 'tipue', 'related': 'Support'},
-        {'search': 'tipue search', 'related': 'Help', 'include': 1},
-        {'search': 'tipue search', 'related': 'Support'}
-    ]
-};
+var tipuesearch_related = {'Related': [
+     {'search': 'tipue', 'related': 'Search', 'include': 1},
+     {'search': 'tipue', 'related': 'jQuery'},
+     {'search': 'tipue', 'related': 'Features'},
+     {'search': 'tipue', 'related': 'Support'},
+     {'search': 'tipue search', 'related': 'Help', 'include': 1},
+     {'search': 'tipue search', 'related': 'Support'}
+]};
 
 
 // Internal strings

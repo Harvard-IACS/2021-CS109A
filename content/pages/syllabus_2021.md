@@ -108,7 +108,7 @@ Note: Advanced sections are not held every week. Consult the course schedule for
 
 
 #### Exams <a name='exams'></a>
-There will be a midterm exam. More details to follow.
+There will be a midterm exam on October 15th.
 
 #### Projects <a name='projects'></a>
 
