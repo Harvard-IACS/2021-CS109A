@@ -1,6 +1,6 @@
 Title: Schedule
 Slug: schedule
-Date: 2021-11-08
+Date: 2021-12-16
 
 
 |Date (Mon)|Lecture (Mon)|Lecture (Wed)|Lab (Fri)|Advanced Section (Wed)|Assignment (R:Released Wed - D:Due Wed)||
@@ -15,10 +15,10 @@ Date: 2021-11-08
 |18-Oct|[Lecture 12: Visualization]({filename}/lectures/lecture12/index.md)|[Lecture 13: Ethics]({filename}/lectures/lecture13/index.md)|Lab 7: Visualization||R:HW4||
 |25-Oct|[Lecture 14: Logistic Regression 1]({filename}/lectures/lecture14/index.md)|[Lecture 15: Logistic Regression 2]({filename}/lectures/lecture15/index.md)|Lab 8: Classification|Advanced Section 4: GLM|R:HW5 -  D:HW4||
 |1-Nov|[Lecture 16: Decision Tree]({filename}/lectures/lecture16/index.md)|[Lecture 17: Bagging]({filename}/lectures/lecture17/index.md)|Lab 9: Decision Trees||||
-|8-Nov|Lecture 18: Random Forest|Lecture 19: Boosting|Lab 10: Random Forest|Advanced Section 5: Stacking & Mixture of Experts|R:HW6 -  D:HW5||
-|15-Nov|Lecture 20: Model Interpretability|Lecture 21: Experimental Design|Lab 11: Model Interpretability & Ethics|Advanced Section 6: Bandits (tentative)|||
-|22-Nov|Lecture 22: NLP 1|No Lecture|No Lab||R:HW7 -  D:HW6||
-|29-Nov|Lecture 23: NLP 2|Lecture 24: Final Review|||D:HW7||
+|8-Nov|[Lecture 18: Random Forest]({filename}/lectures/lecture18/index.md)|[Lecture 19: Boosting]({filename}/lectures/lecture19/index.md)|[Lab 10: Random Forest]({filename}/labs/lab10/index.md)|Advanced Section 5: Stacking & Mixture of Experts|R:HW6 -  D:HW5||
+|15-Nov|[Lecture 20: Model Interpretability]({filename}/lectures/lecture20/index.md)|[Lecture 21: Experimental Design]({filename}/lectures/lecture21/index.md)|[Lab 11: Model Interpretability & Ethics]({filename}/labs/lab11/index.md)|Advanced Section 6: Bandits (tentative)|||
+|22-Nov|[Lecture 22: NLP 1]({filename}/lectures/lecture22/index.md)|No Lecture|No Lab||R:HW7 -  D:HW6||
+|29-Nov|[Lecture 23: NLP 2]({filename}/lectures/lecture23/index.md)|[Lecture 24: Final Review]({filename}/lectures/lecture24/index.md)|||D:HW7||
 |6-Dec|||Project Submission Deadline|Reading Period|||
 |13-Dec||||Finals Week|||
 |20-Dec|Projects: Final Showcase||||||
